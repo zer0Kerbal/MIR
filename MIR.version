@@ -38,10 +38,5 @@
 	{
 		"NAME" :	  "MIR",
 		"DIRECTORY" : "DECQ/MIR"
-	},
-	"INSTALL_LOC_SHP" :
-	{
-		"NAME" : "Ships",
-		"DIRECTORY: "Ships"
 	}
 }
