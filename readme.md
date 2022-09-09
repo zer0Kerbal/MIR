@@ -132,7 +132,7 @@ parts, config
 
 ##### see [Notices.md][MOD:notic] for more *legal mumbo jumbo*
 
-#### Original (1) - Author: [`DECQ:1`][decq:1] and [`Dragon01`][dragon01]
+#### Original (1) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
 
 > Forum: [Thread][MOD:1:thread] - Download: [CurseForge][MOD:1:dnload] - Source: [GitHub][MOD:1:source]  
 > License: [![License][LIC:1:shd]][LIC:1:url] ![License][LIC:1:log]
