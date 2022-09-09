@@ -23,12 +23,9 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/img/HeroLogo_1920x1920.png" alt="MIR Hero" width="50%" height="50%">
 
-<details>
-  <summary><b>Preamble by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/102159-*/">DECQ</a></b></summary>
-  <p>I love Helldiver's KSO, but it got me thinking about the WEKA and the idea of a REALLY small lifting body shuttle(1.25m scale) for crew return and emergency returns from orbit. So after a few abortive attempts at Blender which resulted in the kind of design that should be drowned at birth, I decided to draw on a napkin at work(aren't those always the best designs?).</p>
-  <p>The idea ~would be~ [was] to keep a very low part count, so ideally it will consist of only 6-8 parts i.e. Fuselage,right and left winglets ,docking port,two oms engines. The OMS engines would be R.C.S fueled so they can share the same internal R.C.S. tanks as the thrusters. The shuttle will seat 2 kerbals in a tandem configuration with hopefully RPM displays(2), as a place holder the MK2 cockpit IVA could be used as config is similar.<p>
-  <p>The shuttle, when fueled would weigh in at around 1.8 tonnes and due to it's size will fit in a 2.5m fairing which makes it much easier to launch especially for FAR uses. I picture it as being slightly wider that a MK2 cockpit. This is not shown on the sketch but the docking collar will fit on the rear. The compact size means it should fit in a 2.5m cargo bay for carrying on larger ships etc.</p>
-</details>
+### Preamble by [Wikipedia](https://en.wikipedia.org/wiki/Mir)
+
+> ***Mir*** ([Russian](https://en.wikipedia.org/wiki/Russian_language): Мир, IPA: [[ˈmʲir\]](https://en.wikipedia.org/wiki/Help:IPA/Russian); lit. 'peace' or 'world') was a [space station](https://en.wikipedia.org/wiki/Space_station) that operated in [low Earth orbit](https://en.wikipedia.org/wiki/Low_Earth_orbit) from 1986 to 2001, operated by the [Soviet Union](https://en.wikipedia.org/wiki/Soviet_Union) and later by [Russia](https://en.wikipedia.org/wiki/Russia). *Mir* was the first modular space station and was assembled in orbit from 1986 to 1996. It had a greater mass than any previous [spacecraft](https://en.wikipedia.org/wiki/Spacecraft). At the time it was the largest [artificial satellite](https://en.wikipedia.org/wiki/Artificial_satellite) in orbit, succeeded by the [International Space Station](https://en.wikipedia.org/wiki/International_Space_Station) (ISS) after *Mir*'s [orbit decayed](https://en.wikipedia.org/wiki/Orbital_decay).
 
 ---
 
