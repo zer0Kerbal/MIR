@@ -13,7 +13,7 @@ updated: 04 Sep 2022 -->
 
 # MIR (MIR)
 
-*blurb*
+The Soviet Space Station MIR for Kerbal Space Program.
 
 
 
@@ -40,9 +40,9 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 ---
 
-### YouTube review by [`Kottabos Gaming`](https://forum.kerbalspaceprogram.com/index.php?/profile/36583-*/)
+<!-- ### YouTube review by [`Kottabos Gaming`](https://forum.kerbalspaceprogram.com/index.php?/profile/36583-*/)
 
-[![Kottabos reviews MIR](https://img.youtube.com/vi/Oj1etoybd7E/0.jpg)](https://www.youtube.com/watch?v=Oj1etoybd7E)
+[![Kottabos reviews MIR](https://img.youtube.com/vi/Oj1etoybd7E/0.jpg)](https://www.youtube.com/watch?v=Oj1etoybd7E) -->
 
 ### Help Wanted
 
