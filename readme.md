@@ -188,7 +188,7 @@ parts, config
 [LIC:1:shd]: https://img.shields.io/badge/License-WTFPL-white?style=plastic&labelColor=purple "WTFPL"
 
 [LIC:0:url]: https://en.wikipedia.org/wiki/All_rights_reserved "All Rights Reserved"
-[LIC:0:shd]: https://img.shields.io/badge/License-All%20Rights%20Reserved-white?labelColor=black&style=plastic "All Rights Reserved"
+[LIC:0:shd]: https://img.shields.io/badge/License-All%20Rights%20Reserved-black?style=plastic&labelColor=white&logo=ARR&logoColor=blac "All Rights Reserved"
 
 [LIC:url]: https://creativecommons.org/licenses/by-nd/4.0/ "CC BY-ND 4.0"
 [LIC:log]: https://licensebuttons.net/i/l/by-nd/transparent/33/66/99/76x22.png "CC BY-ND 4.0"
@@ -270,7 +270,7 @@ parts, config
 [youtube]: https://www.youtube.com/channel/UCp9c8IaK4Gjgfj3O9QxrbDw
 
 [DECQ]: https://forum.kerbalspaceprogram.com/index.php?/profile/102159-*/ "DECQ"
-[DECQ:1]: https://forum.kerbalspaceprogram.com/index.php?/profile/103696-*/ "DECQ:1"
+[dragon01]: http://forum.kerbalspaceprogram.com/members/17033-*/ "Dragon01"
 
 [sampa]: https://forum.kerbalspaceprogram.com/index.php?/profile/130079-*/ "Sampa"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
