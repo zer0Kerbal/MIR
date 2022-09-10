@@ -143,7 +143,7 @@ parts, config
 > Forum: [Thread][MOD:0:thread] - Download: [Dropbox][MOD:0:dnload] - Source: [Dropbox][MOD:0:source]  
 > License: [![License][LIC:0:shd]][LIC:0:url]
 >
-> This project used models, textures and configs from [BobCat][bobcat]'s [Soviet Pack 2.0](https://forum.kerbalspaceprogram.com/index.php?/topic/22749-) with permission.
+> This project used models, textures and configs from [BobCat][bobcat]'s [Soviet Pack 2.0](https://forum.kerbalspaceprogram.com/index.php?/topic/22749-*/) with permission.
 
 
 <!-- ---
