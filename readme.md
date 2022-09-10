@@ -273,7 +273,7 @@ parts, config
 [youtube]: https://www.youtube.com/channel/UCp9c8IaK4Gjgfj3O9QxrbDw
 
 [bobcat]: https://forum.kerbalspaceprogram.com/index.php?/profile/22422-*/ "BobCat"
-[DECQ]: https://forum.kerbalspaceprogram.com/index.php?/profile/102159-*/ "DECQ"
+[DECQ]: https://forum.kerbalspaceprogram.com/index.php?/profile/113001-*/ "DECQ"
 [dragon01]: http://forum.kerbalspaceprogram.com/members/17033-*/ "Dragon01"
 
 [sampa]: https://forum.kerbalspaceprogram.com/index.php?/profile/130079-*/ "Sampa"
