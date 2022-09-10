@@ -97,9 +97,7 @@ or [![CKAN][ckan:img]][ckan:url]
   * [Module Manager /L][mml]
 
 * [On Demand Fuel Cells (ODFC)][ODFC]
-* [Firespitter][fs] for fully functioning wheels. may invoke bouts of dizziness.
-* [NEAR-FAR][far]
-* [Restock][restock]
+* [Firespitter][fs] for fuel and mesh switching. may invoke bouts of dizziness.
 * [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
 
 ### Tags
