@@ -17,7 +17,7 @@ The Soviet Space Station MIR for Kerbal Space Program.
 
 
 
-## By [`zer0Kerbal`][zer0Kerbal] and [Sampa][sampa], originally by [`DECQ`][decq] and [Dragon01][dragon01] and [BobCat][bobcat]
+## By [`zer0Kerbal`][zer0Kerbal] and [Sampa][sampa], originally by [BobCat][bobcat], [`DECQ`][decq] and [Dragon01][dragon01]
 
 adopted with *express* permission and brought to you by *KerbSimpleCo*
 
