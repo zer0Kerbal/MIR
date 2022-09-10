@@ -134,7 +134,9 @@ parts, config
 
 > Forum: [Thread][MOD:1:thread] - Download: [CurseForge][MOD:1:dnload] - Source: [GitHub][MOD:1:source]  
 > License: [![License][LIC:1:shd]][LIC:1:url] ![License][LIC:1:log]
+>
 > [DECQ Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3802379) "Do what you want with him."
+>
 > [DECQ Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3939818) "It's okay if you have the urge to accept this and publish, you are free to do so."
 #### Original (0) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
 
