@@ -13,22 +13,19 @@ updated: 04 Sep 2022 -->
 
 # MIR (MIR)
 
-*blurb*
+The Soviet Space Station MIR for Kerbal Space Program.
 
 
 
-## By [`zer0Kerbal`][zer0Kerbal] and [Sampa][sampa], originally by [`AUTH-NAME`][auth-link] with [Daemoria`][daemoria] and [`Blackheart612`][blackheart]
+## By [`zer0Kerbal`][zer0Kerbal] and [Sampa][sampa], originally by [BobCat][bobcat], [`DECQ`][decq] and [Dragon01][dragon01]
 
 adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/img/HeroLogo_1920x1920.png" alt="MIR Hero" width="50%" height="50%">
 
-<details>
-  <summary><b>Preamble by <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/102159-*/">AUTH-NAME</a></b></summary>
-  <p>I love Helldiver's KSO, but it got me thinking about the WEKA and the idea of a REALLY small lifting body shuttle(1.25m scale) for crew return and emergency returns from orbit. So after a few abortive attempts at Blender which resulted in the kind of design that should be drowned at birth, I decided to draw on a napkin at work(aren't those always the best designs?).</p>
-  <p>The idea ~would be~ [was] to keep a very low part count, so ideally it will consist of only 6-8 parts i.e. Fuselage,right and left winglets ,docking port,two oms engines. The OMS engines would be R.C.S fueled so they can share the same internal R.C.S. tanks as the thrusters. The shuttle will seat 2 kerbals in a tandem configuration with hopefully RPM displays(2), as a place holder the MK2 cockpit IVA could be used as config is similar.<p>
-  <p>The shuttle, when fueled would weigh in at around 1.8 tonnes and due to it's size will fit in a 2.5m fairing which makes it much easier to launch especially for FAR uses. I picture it as being slightly wider that a MK2 cockpit. This is not shown on the sketch but the docking collar will fit on the rear. The compact size means it should fit in a 2.5m cargo bay for carrying on larger ships etc.</p>
-</details>
+### Preamble by [Wikipedia](https://en.wikipedia.org/wiki/Mir)
+
+> ***Mir*** ([Russian](https://en.wikipedia.org/wiki/Russian_language): Мир, IPA: [[ˈmʲir\]](https://en.wikipedia.org/wiki/Help:IPA/Russian); lit. 'peace' or 'world') was a [space station](https://en.wikipedia.org/wiki/Space_station) that operated in [low Earth orbit](https://en.wikipedia.org/wiki/Low_Earth_orbit) from 1986 to 2001, operated by the [Soviet Union](https://en.wikipedia.org/wiki/Soviet_Union) and later by [Russia](https://en.wikipedia.org/wiki/Russia). *Mir* was the first modular space station and was assembled in orbit from 1986 to 1996. It had a greater mass than any previous [spacecraft](https://en.wikipedia.org/wiki/Spacecraft). At the time it was the largest [artificial satellite](https://en.wikipedia.org/wiki/Artificial_satellite) in orbit, succeeded by the [International Space Station](https://en.wikipedia.org/wiki/International_Space_Station) (ISS) after *Mir*'s [orbit decayed](https://en.wikipedia.org/wiki/Orbital_decay).
 
 ---
 
@@ -43,9 +40,9 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 ---
 
-### YouTube review by [`Kottabos Gaming`](https://forum.kerbalspaceprogram.com/index.php?/profile/36583-*/)
+<!-- ### YouTube review by [`Kottabos Gaming`](https://forum.kerbalspaceprogram.com/index.php?/profile/36583-*/)
 
-[![Kottabos reviews MIR](https://img.youtube.com/vi/Oj1etoybd7E/0.jpg)](https://www.youtube.com/watch?v=Oj1etoybd7E)
+[![Kottabos reviews MIR](https://img.youtube.com/vi/Oj1etoybd7E/0.jpg)](https://www.youtube.com/watch?v=Oj1etoybd7E) -->
 
 ### Help Wanted
 
@@ -100,9 +97,7 @@ or [![CKAN][ckan:img]][ckan:url]
   * [Module Manager /L][mml]
 
 * [On Demand Fuel Cells (ODFC)][ODFC]
-* [Firespitter][fs] for fully functioning wheels. may invoke bouts of dizziness.
-* [NEAR-FAR][far]
-* [Restock][restock]
+* [Firespitter][fs] for fuel and mesh switching. may invoke bouts of dizziness.
 * [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
 
 ### Tags
@@ -118,8 +113,7 @@ parts, config
 
 ### Credits and Special Thanks
 
-* [AUTH-NAME][auth-link] for creating this glorious parts addon!
-* [AUTH-NAME:1][auth-link:1] for the picking up where [AUTH-NAME][auth-link] left off
+* [DECQ][decq] and [Dragon01][dragon01] for creating this glorious parts addon!
 * see [Attribution.md][MOD:attr] for more comprehensive list
 
 ### Legal Mumbo Jumbo (License *provenance*)
@@ -136,17 +130,26 @@ parts, config
 
 ##### see [Notices.md][MOD:notic] for more *legal mumbo jumbo*
 
-#### Original (1) - Author: [`AUTH-NAME:1`][auth-link:1]
+#### Original (1) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
 
-> Forum: [Thread][MOD:1:thread] - Download: [Dropbox][MOD:1:dnload] - Source: [Dropbox][MOD:1:source]  
+> Forum: [Thread][MOD:1:thread] - Download: [CurseForge][MOD:1:dnload] - Source: [GitHub][MOD:1:source]  
 > License: [![License][LIC:1:shd]][LIC:1:url] ![License][LIC:1:log]
+>
+> [DECQ Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3802379) "Do what you want with him."
+>
+> [DECQ Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3939818) "It's okay if you have the urge to accept this and publish, you are free to do so."
 
-#### Original (0) - Author: [`AUTH-NAME`][auth-link]
+#### Original (0) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
 
 > Forum: [Thread][MOD:0:thread] - Download: [Dropbox][MOD:0:dnload] - Source: [Dropbox][MOD:0:source]  
-> License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]
+> License: [![License][LIC:0:shd]][LIC:0:url]
+>
+> This project used models, textures and configs from [BobCat][bobcat]'s [Soviet Pack 2.0](https://forum.kerbalspaceprogram.com/index.php?/topic/22749-*/) with permission.
+>
+> [BobCat Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3939818) "It's okay if you have the urge to accept this and publish, you are free to do so."
 
----
+
+<!-- ---
 
 ### DONATIONS: How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]  
 
@@ -155,7 +158,7 @@ parts, config
 
 [![Support][PAYPAL:img]][PAYPAL:url] [![Github Sponsor][GSPONS:img]][GSPONS:url] [![Patreon][PATREON:img]][PATREON:url] [![Buy zer0Kerbal a snack][BMCC:img]][BMCC:url]
 
-*and it is true.*
+*and it is true.* -->
 <!-- mod links -->
 [MOD:attr]: https://zer0kerbal.github.io/MIR/Attributions "Attribution"
 [MOD:chlog]: https://raw.githubusercontent.com/zer0Kerbal/MIR/master/changelog.md  "Changelog"
@@ -174,59 +177,25 @@ parts, config
 [MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
 <!--- mod provenance -->
-[MOD:1:dnload]: https://www.dropbox.com/s/85og3xdhark7com/MIR5.rar "Dropbox"
-[MOD:1:source]: https://www.dropbox.com/s/85og3xdhark7com/MIR5.rar "Dropbox"
+[MOD:1:dnload]: https://www.curseforge.com/kerbal/ksp-mods/MIR "CurseForge"
+[MOD:1:source]: https://github.com/zer0Kerbal/MIR/ "GitHub"
 [MOD:1:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
 
-[MOD:0:dnload]: https://www.dropbox.com/s/85og3xdhark7com/MIR5.rar?dl=0 "Dropbox"
-[MOD:0:source]: https://www.dropbox.com/s/85og3xdhark7com/MIR5.rar?dl=0 "Dropbox"
-[MOD:0:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
+[MOD:0:dnload]: https://www.dropbox.com/sh/nz8vpu0s31e8ts0/AABRd0Ij6vSs3KB3GNg9oJwOa "Dropbox"
+[MOD:0:source]: https://www.dropbox.com/sh/nz8vpu0s31e8ts0/AABRd0Ij6vSs3KB3GNg9oJwOa "Dropbox"
+[MOD:0:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/79479-*/ "KSP Forum"
 
 <!--- license provenance -->
-[LIC:1:url]: https://creativecommons.org/licenses/by-nc-sa/4.0/ "CC BY-NC-SA 4.0"
-[LIC:1:log]: https://licensebuttons.net/i/l/by-nc-sa/transparent/33/66/99/76x22.png "CC BY-NC-SA 4.0"
-[LIC:1:shd]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-ef9421?labelColor=black&style=plastic&logoColor=ef9421&logo=creativecommons "CC BY-NC-SA 4.0"
+[LIC:1:url]: http://www.wtfpl.net/about/ "WTFPL"
+[LIC:1:log]: http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-2.png "WTFPL"
+[LIC:1:shd]: https://img.shields.io/badge/License-WTFPL-white?style=plastic&labelColor=purple "WTFPL"
 
-[LIC:0:url]: https://creativecommons.org/licenses/by-nc-sa/4.0/ "CC BY-NC-SA 4.0"
-[LIC:0:log]: https://licensebuttons.net/i/l/by-nc-sa/transparent/33/66/99/76x22.png "CC BY-NC-SA 4.0"
-[LIC:0:shd]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-ef9421?labelColor=black&style=plastic&logoColor=ef9421&logo=creativecommons "CC BY-NC-SA 4.0"
+[LIC:0:url]: https://en.wikipedia.org/wiki/All_rights_reserved "All Rights Reserved"
+[LIC:0:shd]: https://img.shields.io/badge/License-All%20Rights%20Reserved-black?style=plastic&labelColor=white&logo=ARR&logoColor=blac "All Rights Reserved"
 
 [LIC:url]: https://creativecommons.org/licenses/by-nd/4.0/ "CC BY-ND 4.0"
 [LIC:log]: https://licensebuttons.net/i/l/by-nd/transparent/33/66/99/76x22.png "CC BY-ND 4.0"
 [LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MIR/master/json/license.json "CC BY-ND 4.0"
-
-<!--- GPL-2.0
-[LIC:0:url]: https://www.gnu.org/licenses/gpl-2.0-standalone.html "GPL-2.0"
-[LIC:0:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPL-2.0"
-[LIC:0:shd]:  https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MIR/master/json/license.json
-https://img.shields.io/badge/License-GPL--2.0-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPL-2.0"
--->
-
-<!--- GPL-3.0
-[LIC:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPL-3.0"
-[LIC:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPL-3.0"
-[LIC:shd]:  https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MIR/master/json/license.json
-https://img.shields.io/badge/License-GPL--3.0-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPL-3.0"
-
-[LIC:0:url]: http://www.wtfpl.net/about/ "WTFPL"
-[LIC:0:log]: http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png "WTFPL"
-[LIC:0:shd]: https://img.shields.io/badge/License-WTFPL-white?style=plastic&labelColor=purple "WTFPL"
--->
-
-<!-- All Rights Reserved
-[LIC:1:url]: https://en.wikipedia.org/wiki/All_rights_reserved "All Rights Reserved"
-[LIC:1:shd]: https://img.shields.io/badge/License-All%20Rights%20Reserved-white?labelColor=black&style=plastic "All Rights Reserved" -->
-
-<!-- Expat/MIT
-[LIC:0:url]: https://opensource.org/licenses/MIT "Expat-MIT"
-[LIC:0:log]: https://i.postimg.cc/bvjfsMP5/MIT-17x17.png "Expat-MIT"
-[LIC:0:shd]: https://img.shields.io/badge/License-Expat/MIT-3DA639?labelColor=black&logoColor=3DA639&logo=OpenSourceInitiative&style=plastic "Expat-MIT"
--->
-
-<!--- SimpleBSD-2-Clause
-[LIC:0:url]: https://choosealicense.com/licenses/bsd-2-clause/ "SimpleBSD-2-Clause"
-[LIC:0:shd]: https://img.shields.io/badge/License-BSD--2--Clause-AB2B28?labelColor=white&style=plastic&logoColor=AB2B28&logo=FreeBSD "SimpleBSD-2-Clause"
--->
 
 <!--- CKAN -->
 [ckan:img]: https://i.postimg.cc/x8XSVg4R/sj507JC.png "CKAN"
@@ -303,8 +272,9 @@ https://img.shields.io/badge/License-GPL--3.0-A42E2B?style=plastic&labelColor=wh
 [twitter]: https://twitter.com/zer0Kerbal
 [youtube]: https://www.youtube.com/channel/UCp9c8IaK4Gjgfj3O9QxrbDw
 
-[AUTH-NAME]: https://forum.kerbalspaceprogram.com/index.php?/profile/102159-*/ "AUTH-NAME"
-[AUTH-NAME:1]: https://forum.kerbalspaceprogram.com/index.php?/profile/103696-*/ "AUTH-NAME:1"
+[bobcat]: https://forum.kerbalspaceprogram.com/index.php?/profile/22422-*/ "BobCat"
+[DECQ]: https://forum.kerbalspaceprogram.com/index.php?/profile/113001-*/ "DECQ"
+[dragon01]: http://forum.kerbalspaceprogram.com/members/17033-*/ "Dragon01"
 
 [sampa]: https://forum.kerbalspaceprogram.com/index.php?/profile/130079-*/ "Sampa"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
