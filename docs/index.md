@@ -3,10 +3,10 @@
 ## Categories
 - [FAKQ](./FAKQ/index.md)
 - [LegalMumboJumbo](./LegalMumboJumbo/index.md)
+- [ReleaseNotes](./ReleaseNotes/index.md)
 
 ## Documents
 - [404](404.md)
-- [Assembly](Assembly.md)
 - [Attributions](Attributions.md)
 - [LegalMumboJumbo](LegalMumboJumbo.md)
 - [Localizations](Localizations.md)
@@ -15,3 +15,4 @@
 - [Notices](Notices.md)
 - [PartsCatalog](PartsCatalog.md)
 - [Why](Why.md)
+- [changelog](changelog.md)
