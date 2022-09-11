@@ -102,16 +102,35 @@ or [![CKAN][ckan:img]][ckan:url]
 ### Dependencies
 
 * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url] [^2]
+  * [BobCatInd][BOBCATIND] addons
+
+### Suggests
+
+* [On Demand Fuel Cells (ODFC)][ODFC]
+* [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
+* [TweakScale][twk]
+* Other [BobCat Industries][BOBCATIND] addons
+  * Soviet Pack
+    * [Buran][BURAN]
+    * [Kliper][KLIPER]
+    * [Lunokchod1][LUNOKCHOD1]
+    * [MIR][MIR]
+    * [N1L3][N1L3]
+    * [Progress][PROGRESS]
+    * [Proton][PROTON]
+    * [Soviet Engines][SOVIETENGINES]
+    * [Soyuz][SOYUZ]
+    * [SoyuzU][SOYUZU]
+  * [JoolV][JOOLV]
+  * [Nautilus][NAUTILUS]
+  * [HOME][HOME]
 
 ### Supports
 
 * Either [^3]
   * [Module Manager][mm]
   * [Module Manager /L][mml]
-
-* [On Demand Fuel Cells (ODFC)][ODFC]
 * [Firespitter][fs] for fuel and mesh switching. may invoke bouts of dizziness.
-* [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
 
 ### Tags
 
@@ -131,7 +150,7 @@ parts, config
 
 ### Legal Mumbo Jumbo (License *provenance*)
 
-#### Current (2) - [Sampa][sampa] and [`zer0Kerbal`][zer0Kerbal]
+#### Current (3) - [Sampa][sampa] and [`zer0Kerbal`][zer0Kerbal]
 
 > Forum: [Thread][MOD:forum] - Source: [GitHub][GITHUB:url]  
 > License: [![License][LIC:shd]][LIC:url] ![License][LIC:log]
@@ -143,24 +162,28 @@ parts, config
 
 ##### see [Notices.md][MOD:notic] for more *legal mumbo jumbo*
 
-#### Original (1) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
+#### Original (2) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
 
-> Forum: [Thread][MOD:1:thread] - Download: [CurseForge][MOD:1:dnload] - Source: [GitHub][MOD:1:source]  
-> License: [![License][LIC:1:shd]][LIC:1:url] ![License][LIC:1:log]
+> Forum: [Thread][MOD:2:thread] - Download: [CurseForge][MOD:2:dnload] - Source: [GitHub][MOD:2:source]  
+> License: [![License][LIC:2:shd]][LIC:2:url] ![License][LIC:2:log]
 >
 > [DECQ Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3802379) "Do what you want with him."
 >
 > [DECQ Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3939818) "It's okay if you have the urge to accept this and publish, you are free to do so."
 
-#### Original (0) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
+#### Original (1) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
 
-> Forum: [Thread][MOD:0:thread] - Download: [Dropbox][MOD:0:dnload] - Source: [Dropbox][MOD:0:source]  
-> License: [![License][LIC:0:shd]][LIC:0:url]
+> Forum: [Thread][MOD:1:thread] - Download: [Dropbox][MOD:1:dnload] - Source: [Dropbox][MOD:1:source]  
+> License: [![License][LIC:1:shd]][LIC:1:url]
 >
 > This project used models, textures and configs from [BobCat][bobcat]'s [Soviet Pack 2.0](https://forum.kerbalspaceprogram.com/index.php?/topic/22749-*/) with permission.
 >
 > [BobCat Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3939818) "It's okay if you have the urge to accept this and publish, you are free to do so."
 
+#### Original (0) - Author: [`BobCat`][bobcat]
+
+> Forum: [Thread][MOD:0:thread] - Download: [Wayback Machine][MOD:0:dnload] - Source: [Wayback Machine][MOD:0:source]  
+> License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]
 
 <!-- ---
 
@@ -190,21 +213,29 @@ parts, config
 [MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
 <!--- mod provenance -->
-[MOD:1:dnload]: https://www.curseforge.com/kerbal/ksp-mods/MIR "CurseForge"
-[MOD:1:source]: https://github.com/zer0Kerbal/MIR/ "GitHub"
-[MOD:1:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
+[MOD:2:dnload]: https://www.curseforge.com/kerbal/ksp-mods/MIR "CurseForge"
+[MOD:2:source]: https://github.com/zer0Kerbal/MIR/ "GitHub"
+[MOD:2:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
 
-[MOD:0:dnload]: https://www.dropbox.com/sh/nz8vpu0s31e8ts0/AABRd0Ij6vSs3KB3GNg9oJwOa "Dropbox"
-[MOD:0:source]: https://www.dropbox.com/sh/nz8vpu0s31e8ts0/AABRd0Ij6vSs3KB3GNg9oJwOa "Dropbox"
+[MOD:1:dnload]: https://www.dropbox.com/sh/nz8vpu0s31e8ts0/AABRd0Ij6vSs3KB3GNg9oJwOa "Dropbox"
+[MOD:1:source]: https://www.dropbox.com/sh/nz8vpu0s31e8ts0/AABRd0Ij6vSs3KB3GNg9oJwOa "Dropbox"
+[MOD:1:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/22749-*/ "KSP Forum"
+
+[MOD:0:dnload]: https://archive.org/download/SovietPackCore-v2.2/8228196A-SovietPackCore-v2.2.zip "Wayback Machine"
+[MOD:0:source]: https://archive.org/download/SovietPackCore-v2.2/8228196A-SovietPackCore-v2.2.zip "Wayback Machine"
 [MOD:0:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/79479-*/ "KSP Forum"
 
 <!--- license provenance -->
-[LIC:1:url]: http://www.wtfpl.net/about/ "WTFPL"
-[LIC:1:log]: http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-2.png "WTFPL"
-[LIC:1:shd]: https://img.shields.io/badge/License-WTFPL-white?style=plastic&labelColor=purple "WTFPL"
+[LIC:2:url]: http://www.wtfpl.net/about/ "WTFPL"
+[LIC:2:log]: http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-2.png "WTFPL"
+[LIC:2:shd]: https://img.shields.io/badge/License-WTFPL-white?style=plastic&labelColor=purple "WTFPL"
 
-[LIC:0:url]: https://en.wikipedia.org/wiki/All_rights_reserved "All Rights Reserved"
-[LIC:0:shd]: https://img.shields.io/badge/License-All%20Rights%20Reserved-black?style=plastic&labelColor=white&logo=ARR&logoColor=blac "All Rights Reserved"
+[LIC:1:url]: https://en.wikipedia.org/wiki/All_rights_reserved "All Rights Reserved"
+[LIC:1:shd]: https://img.shields.io/badge/License-All%20Rights%20Reserved-black?style=plastic&labelColor=white&logo=ARR&logoColor=blac "All Rights Reserved"
+
+[LIC:0:url]: https://creativecommons.org/licenses/by-nc-nd/3.0/ "CC BY-NC-ND 3.0"
+[LIC:0:log]: https://licensebuttons.net/i/l/by-nc-nd/transparent/33/66/99/76x22.png "CC BY-NC-ND 3.0"
+[LIC:0:shd]:  https://img.shields.io/badge/License-CC%20BY--NC--ND%203.0-ef9421?labelColor=black&style=plastic&logoColor=ef9421&logo=creativecommons "CC BY-NC-ND 3.0"
 
 [LIC:url]: https://creativecommons.org/licenses/by-nd/4.0/ "CC BY-ND 4.0"
 [LIC:log]: https://licensebuttons.net/i/l/by-nd/transparent/33/66/99/76x22.png "CC BY-ND 4.0"
