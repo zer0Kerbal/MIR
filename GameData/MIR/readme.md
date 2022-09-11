@@ -11,30 +11,17 @@ updated: 04 Sep 2022 -->
 
 
 
-# MIR Space Station (MIR)
+# MIR (MIR)
 
 The Soviet Space Station MIR for Kerbal Space Program.
 
-## By [`zer0Kerbal`][zer0Kerbal] and [Sampa][sampa], originally by [BobCat][bobcat], [`DECQ`][decq] and [Dragon01][dragon01]
+
+
+## By [`zer0Kerbal`][zer0Kerbal] and [Sampa][sampa], originally by [`DECQ`][decq] and [Dragon01][dragon01]
 
 adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/img/HeroLogo_1920x1920.png" alt="MIR Hero" width="50%" height="50%">
-
-### Features by [BobCat][bobcat]
-
-* Modular space station.
-* MIR Core module with living quarters, six docking ports and a detailed IVA.
-* Kvant-1 Astrophysics module with an X-ray experiment and a docking port.
-* FSM space tug for delivering Kvant 1 to the station.
-* Kvant-2 physics module with an airlock.
-* Kristall docking module with two additional docking ports.
-* Spektr power module with 4 solar panels.
-* Priroda Kerbin observation module with a big Travers antenna.
-* Docking Compartment for improving docking clearance. By Blista100, used with permission.
-* Zarya FGB with high fuel load and RCS configured for flying with Unity module attached.
-* Zvezda service module (MIR Core variant) with 4 docking ports.
-* New solar panels and an ISS-style docking port.
 
 ### Preamble by [Wikipedia](https://en.wikipedia.org/wiki/Mir)
 
@@ -147,20 +134,12 @@ parts, config
 
 > Forum: [Thread][MOD:1:thread] - Download: [CurseForge][MOD:1:dnload] - Source: [GitHub][MOD:1:source]  
 > License: [![License][LIC:1:shd]][LIC:1:url] ![License][LIC:1:log]
->
 > [DECQ Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3802379) "Do what you want with him."
->
 > [DECQ Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3939818) "It's okay if you have the urge to accept this and publish, you are free to do so."
-
 #### Original (0) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
 
 > Forum: [Thread][MOD:0:thread] - Download: [Dropbox][MOD:0:dnload] - Source: [Dropbox][MOD:0:source]  
 > License: [![License][LIC:0:shd]][LIC:0:url]
->
-> This project used models, textures and configs from [BobCat][bobcat]'s [Soviet Pack 2.0](https://forum.kerbalspaceprogram.com/index.php?/topic/22749-*/) with permission.
->
-> [BobCat Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3939818) "It's okay if you have the urge to accept this and publish, you are free to do so."
-
 
 <!-- ---
 
@@ -285,8 +264,7 @@ parts, config
 [twitter]: https://twitter.com/zer0Kerbal
 [youtube]: https://www.youtube.com/channel/UCp9c8IaK4Gjgfj3O9QxrbDw
 
-[bobcat]: https://forum.kerbalspaceprogram.com/index.php?/profile/22422-*/ "BobCat"
-[DECQ]: https://forum.kerbalspaceprogram.com/index.php?/profile/113001-*/ "DECQ"
+[DECQ]: https://forum.kerbalspaceprogram.com/index.php?/profile/102159-*/ "DECQ"
 [dragon01]: http://forum.kerbalspaceprogram.com/members/17033-*/ "Dragon01"
 
 [sampa]: https://forum.kerbalspaceprogram.com/index.php?/profile/130079-*/ "Sampa"
