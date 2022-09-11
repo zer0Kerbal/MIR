@@ -37,6 +37,6 @@
 	"INSTALL_LOC" :
 	{
 		"NAME" :	  "MIR",
-		"DIRECTORY" : "DECQ/MIR"
+		"DIRECTORY" : "MIR"
 	}
 }
