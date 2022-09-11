@@ -10,10 +10,19 @@
 | spacedock  | (https://spacedock.info/mod/)                               |
 | ckan       | MIR                                                         |
 
-## Version 0.4.0.0-release `<Archival>` edition
+## Version 4.0.0.0-release `<Archival>` edition
+
+* 2014
+* For Kerbal Space Program 1.0.5
 
 * Last released by DECQ and Dragon01
 * From BobCat Industries Soviet Pack
+
+### Status 0.4.0.0
+
+* Issues
+  * closes #7 - Archival Releases
+  * closes #31 - 4.0.0.0-release
 
 ---
 
