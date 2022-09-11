@@ -12,7 +12,8 @@
 
 ## Version 0.4.0.0-release `<Archival>` edition
 
-
+* Last released by DECQ and Dragon01
+* From BobCat Industries Soviet Pack
 
 ---
 
