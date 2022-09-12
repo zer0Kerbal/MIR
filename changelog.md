@@ -1,14 +1,14 @@
 # Changelog  
   
-| modName    | MIR (MIS)                                                   |
-| ---------- | ----------------------------------------------------------- |
-| license    | CC-BY-ND-4.0                                                |
-| author     | BobCat, DECQ, Dragon01, Sampa and zer0Kerbal                |
-| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/-*/) |
-| github     | (https://github.com/zer0Kerbal/zer0Kerbal/MIR)              |
-| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/MIR)            |
-| spacedock  | (https://spacedock.info/mod/)                               |
-| ckan       | MIR                                                         |
+| modName    | MIR (MIS)                                                         |
+| ---------- | ----------------------------------------------------------------- |
+| license    | CC-BY-ND-4.0                                                      |
+| author     | BobCat, DECQ, Dragon01, Sampa and zer0Kerbal                      |
+| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209731-*/) |
+| github     | (https://github.com/zer0Kerbal/zer0Kerbal/MIR)                    |
+| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/MIR)                  |
+| spacedock  | (https://spacedock.info/mod/3115)                                 |
+| ckan       | MIR                                                               |
 
 ## Version 4.0.0.0-release `<Archival>` edition
 
