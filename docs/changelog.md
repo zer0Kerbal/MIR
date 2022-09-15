@@ -14,15 +14,39 @@ updated:
 CC BY-ND 4.0 by zer0Kerbal
 --># Changelog  
   
-| modName    | MIR (MIS)                                                   |
-| ---------- | ----------------------------------------------------------- |
-| license    | CC-BY-ND-4.0                                                |
-| author     | BobCat, DECQ, Dragon01, Sampa and zer0Kerbal                |
-| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/-*/) |
-| github     | (https://github.com/zer0Kerbal/zer0Kerbal/MIR)              |
-| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/MIR)            |
-| spacedock  | (https://spacedock.info/mod/)                               |
-| ckan       | MIR                                                         |
+| modName    | MIR (MIS)                                                         |
+| ---------- | ----------------------------------------------------------------- |
+| license    | CC-BY-ND-4.0                                                      |
+| author     | BobCat, DECQ, Dragon01, Sampa and zer0Kerbal                      |
+| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209731-*/) |
+| github     | (https://github.com/zer0Kerbal/zer0Kerbal/MIR)                    |
+| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/MIR)                  |
+| spacedock  | (https://spacedock.info/mod/3115)                                 |
+| ckan       | MIR                                                               |
+
+## Version 4.0.99.0-adoption `<Thank you BobCat, DECQ, and Dragon01>` edition
+
+* 12 Sep 2022
+* For Kerbal Space Program 1.12.3
+
+### Summary 4.0.99.0
+
+* Adoption
+* File Structure reverted to original(ish)
+* Split out Agent(s) into separate addon
+* Updated license (CC BY-NC-ND 3.0 -> ARR -> WTFPL -> CC BY-ND 4.0)
+
+### Adoption by Sampa and zer0Kerbal
+
+* License (newest on top, original on bottom)
+  * Sampa/zer0Kerbal: CC BY-ND 4.0)
+  * DECQ/Dragon01: WTFPL -->
+  * DECQ/Dragon01: All Rights Reserved -->
+  * BobCat: CC BY-NC-ND 3.0 -->
+
+KSP_VERSION_MAX
+
+---
 
 ## Version 4.0.0.0-release `<Archival>` edition
 
