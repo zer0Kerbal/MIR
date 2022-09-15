@@ -32,6 +32,8 @@ CC BY-ND 4.0 by zer0Kerbal
 ### Summary 4.0.99.0
 
 * Adoption
+* Initial pre-release, first of several.
+* first eight parts
 * File Structure reverted to original(ish)
 * Split out Agent(s) into separate addon
 * Updated license (CC BY-NC-ND 3.0 -> ARR -> WTFPL -> CC BY-ND 4.0)
@@ -44,7 +46,7 @@ CC BY-ND 4.0 by zer0Kerbal
   * DECQ/Dragon01: All Rights Reserved -->
   * BobCat: CC BY-NC-ND 3.0 -->
 
-KSP_VERSION_MAX
+removed KSP_VERSION_MAX
 
 ---
 
