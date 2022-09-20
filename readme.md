@@ -23,18 +23,18 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 ### Features by [BobCat][bobcat]
 
-* Modular space station.
-* MIR Core module with living quarters, six docking ports and a detailed IVA.
-* Kvant-1 Astrophysics module with an X-ray experiment and a docking port.
-* FSM space tug for delivering Kvant 1 to the station.
-* Kvant-2 physics module with an airlock.
-* Kristall docking module with two additional docking ports.
-* Spektr power module with 4 solar panels.
-* Priroda Kerbin observation module with a big Travers antenna.
-* Docking Compartment for improving docking clearance. By Blista100, used with permission.
-* Zarya FGB with high fuel load and RCS configured for flying with Unity module attached.
-* Zvezda service module (MIR Core variant) with 4 docking ports.
-* New solar panels and an ISS-style docking port.
+* Modular space station
+  * MIR Core module with living quarters, six docking ports and a detailed IVA.
+  * Kvant-1 Astrophysics module with an X-ray experiment and a docking port.
+  * FSM space tug for delivering Kvant 1 to the station.
+  * Kvant-2 physics module with an airlock.
+  * Kristall docking module with two additional docking ports.
+  * Spektr power module with 4 solar panels.
+  * Priroda Kerbin observation module with a big Travers antenna.
+  * Docking Compartment for improving docking clearance. By Blista100, used with permission.
+  * Zarya FGB with high fuel load and RCS configured for flying with Unity module attached.
+  * Zvezda service module (MIR Core variant) with 4 docking ports.
+  * New solar panels and an ISS-style docking port.
 
 ### Preamble by [Wikipedia](https://en.wikipedia.org/wiki/Mir)
 
@@ -50,12 +50,6 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 >* [Discussions][MOD:discu] or [KSP Forums][MOD:forum] for discussions and news on this mod
 >* [ChangeLog][MOD:chlog] for more details of changes
 >* [Known Issues][MOD:issue] for more details of feature requests and known issues
-
----
-
-<!-- ### YouTube review by [`Kottabos Gaming`](https://forum.kerbalspaceprogram.com/index.php?/profile/36583-*/)
-
-[![Kottabos reviews MIR](https://img.youtube.com/vi/Oj1etoybd7E/0.jpg)](https://www.youtube.com/watch?v=Oj1etoybd7E) -->
 
 ### Help Wanted
 
@@ -78,7 +72,7 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 ---
 
-### Installation Directions [^1]
+### Installation Directions
 
 ***Use***
   CurseForge/OverWolf App (currently does not install dependencies)  
@@ -87,29 +81,23 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
     <img src="https://www.overwolf.com/brand-guidelines/img/logo2.svg" alt="CurseForge/OverWolf App" width="15%" height="15%">
 </a>
 
-I take no part, nor am I interested in maintaining the [CKAN][ckan:url] mod metadata for my mods.
-
-[CKAN][ckan:url] is a great mod for those that can't use zip tools.
-
-If you are having issues please let the [CKAN][ckan:url] people know and refer to the [CKAN][ckan:url] thread.
-
-My support of [CKAN][ckan:url] extends as far as me checking the checkbox in Spacedock when I upload.
-
-Beware, [CKAN][ckan:url] *can* really mess up though it tries very, very, very hard not to.
-
 or [![CKAN][ckan:img]][ckan:url]
 
 ### Dependencies
 
-* [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url] [^2]
-  * [BobCatInd][BOBCATIND] addons
+* [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url]
+* [BobCatInd][BOBCATIND] addons
 
 ### Suggests
 
 * [On Demand Fuel Cells (ODFC)][ODFC]
 * [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
 * [TweakScale][twk]
-* Other [BobCat Industries][BOBCATIND] addons
+
+#### [BobCatInd][BOBCATIND] addons
+
+* The collection of [BobCat Industries][BOBCATIND]
+  * [Soviet Engines][SOVIETENGINES]
   * Soviet Pack
     * [Buran][BURAN]
     * [Kliper][KLIPER]
@@ -118,7 +106,6 @@ or [![CKAN][ckan:img]][ckan:url]
     * [N1L3][N1L3]
     * [Progress][PROGRESS]
     * [Proton][PROTON]
-    * [Soviet Engines][SOVIETENGINES]
     * [Soyuz][SOYUZ]
     * [SoyuzU][SOYUZU]
   * [JoolV][JOOLV]
@@ -127,9 +114,9 @@ or [![CKAN][ckan:img]][ckan:url]
 
 ### Supports
 
-* Either [^3]
-  * [Module Manager][mm]
+* Either
   * [Module Manager /L][mml]
+  * [Module Manager][mm]
 * [Firespitter][fs] for fuel and mesh switching. may invoke bouts of dizziness.
 
 ### Tags
@@ -146,7 +133,7 @@ parts, config
 ### Credits and Special Thanks
 
 * [DECQ][decq] and [Dragon01][dragon01] for creating this glorious parts addon!
-* see [Attribution.md][MOD:attr] for more comprehensive list
+* see [Attribution.md][MOD:attr] for more
 
 ### Legal Mumbo Jumbo (License *provenance*)
 
@@ -186,16 +173,6 @@ parts, config
 >
 > [BobCat Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3939818) "It's okay if you have the urge to accept this and publish, you are free to do so."
 
-<!-- ---
-
-### DONATIONS: How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]  
-
-> ***Completely voluntary, absolutely amazing, and really does help me out a lot!***
-> quote from <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/32393-*/"><img border="0" alt="cybutek" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2020_06/kappa-kerbal-anarchy.thumb.png.673a2f6f7b36cc60a35c24efef217246.png" width="25px" height="25px"> cybutek</a> creator of <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/17833-130-*/" alt="Kerbal Engineer Redux (KER)"> Kerbal Engineer</a>
-
-[![Support][PAYPAL:img]][PAYPAL:url] [![Github Sponsor][GSPONS:img]][GSPONS:url] [![Patreon][PATREON:img]][PATREON:url] [![Buy zer0Kerbal a snack][BMCC:img]][BMCC:url]
-
-*and it is true.* -->
 <!-- mod links -->
 [MOD:attr]: https://zer0kerbal.github.io/MIR/Attributions "Attribution"
 [MOD:chlog]: https://raw.githubusercontent.com/zer0Kerbal/MIR/master/changelog.md  "Changelog"
@@ -265,6 +242,22 @@ parts, config
 [GPO]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPO SpeedPump (GPO)"
 [ODFC]: https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*/ "On Demand Fuel Cells (ODFC)"
 
+[BOBCATIND]: https://forum.kerbalspaceprogram.com/index.php?/topic/209729-*/ "BobCatInd"
+[BURAN]: https://github.com/zer0Kerbal/Buran "Buran"
+[KLIPER]: https://github.com/zer0Kerbal/Kliper "Kliper"
+[LUNOKCHOD1]: https://github.com/zer0Kerbal/Lunokchod1 "Lunokchod1"
+[MIR]: https://forum.kerbalspaceprogram.com/index.php?/topic/204186-*/ "MIR"
+[N1L3]: https://github.com/zer0Kerbal/N1L3 "N1L3"
+[PROGRESS]: https://github.com/zer0Kerbal/Progress "Progress"
+[PROTON]: https://github.com/zer0Kerbal/Proton "Proton"
+[SOVIETENGINES]: https://github.com/zer0Kerbal/SovietEnginePack "Soviet Engines"
+[SOYUZ]: https://github.com/zer0Kerbal/Soyuz "Soyuz"
+[SOYUZU]: https://github.com/zer0Kerbal/SoyuzU "SoyuzU"
+[JOOLV]: https://github.com/zer0Kerbal/JoolV "JoolV"
+[NAUTILUS]: https://github.com/zer0Kerbal/Nautilus "Nautilus"
+[HOME]: https://github.com/zer0Kerbal/HOME "HOME"
+
+
 [atp]: https://forum.kerbalspaceprogram.com/index.php?/topic/138433-*/ "JSI Advanced Transparent Pods"
 [b9ps]: https://forum.kerbalspaceprogram.com/index.php?/topic/140541-*/ "B9 Part Switch"
 [fs]: https://github.com/snjo/Firespitter/ "Firespitter"
@@ -279,16 +272,6 @@ parts, config
 [restock]: https://forum.kerbalspaceprogram.com/index.php?/topic/182679-*/ "Restock"
 [rpm]: https://forum.kerbalspaceprogram.com/index.php?/topic/105821-*/ "Raster Prop Monitor"
 [twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/ "TweakScale"
-
-<!-- financial support -->
-[PAYPAL:img]: https://img.shields.io/badge/Buy%20me%20some%20-LFO-BADA55?style=for-the-badge&logo=paypal&labelColor=FFDD00/ "PayPal"
-[PAYPAL:url]: https://www.paypal.com/donate?hosted_button_id=DC22YHMEJREKL/ "PayPal"
-[PATREON:img]: https://img.shields.io/badge/Patreon%20-Patreonize-FF424D?style=for-the-badge&logo=patreon/ "Patreon"
-[PATREON:url]: https://www.patreon.com/bePatron?u=23390503/ "Patreon"
-[GSPONS:img]: https://img.shields.io/badge/Github%20-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors/ "Github Sponsors"
-[GSPONS:url]: https://github.com/sponsors/zer0Kerbal/ "Github Sponsors"
-[BMCC:img]: https://img.shields.io/badge/Buy%20Me%20a%20-Snack!-FFDD00?style=for-the-badge&logo=buymeacoffee/ "Buy Me A Snack"
-[BMCC:url]: https://buymeacoffee.com/zer0Kerbal/ "Buy Me A Snack"
 
 <!-- Localization -->
 [lreadme]: https://github.com/zer0Kerbal/zer0Kerbal/blob/master/Localization/readme.md "Localization Readme"
@@ -311,12 +294,6 @@ parts, config
 [TR]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/TR.png "Türk"
 [TW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/TW.png "国语"
 
-[curseforge]: https://www.curseforge.com/members/zer0kerbal/projects
-[reddit]: https://www.reddit.com/user/zer0Kerbal
-[twitch]: https://www.twitch.tv/zer0kerbal
-[twitter]: https://twitter.com/zer0Kerbal
-[youtube]: https://www.youtube.com/channel/UCp9c8IaK4Gjgfj3O9QxrbDw
-
 [bobcat]: https://forum.kerbalspaceprogram.com/index.php?/profile/22422-*/ "BobCat"
 [DECQ]: https://forum.kerbalspaceprogram.com/index.php?/profile/113001-*/ "DECQ"
 [dragon01]: http://forum.kerbalspaceprogram.com/members/17033-*/ "Dragon01"
@@ -326,15 +303,8 @@ parts, config
 
 ---
 
-#### Connect with me
+#### Track Progress
 
-Track progress: issues [here][MOD:issue] and projects [here](https://github.com/zer0Kerbal/MIR/projects/) along with **[The Short List](https://github.com/users/zer0Kerbal/projects/27)**
-
-[<img align="left" alt="zer0Kerbal | kerbalspaceprogram.com" width="32px" src="https://cdn.icon-icons.com/icons2/1381/PNG/32/kerbalspaceprogram_93898.png" />][zer0Kerbal] [<img align="left" alt="zer0Kerbal | CurseForge" width="32px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/curseforge.svg" />][curseforge] [<img align="left" alt="zer0Kerbal | reddit" width="32px" src="https://cdn.icon-icons.com/icons2/1945/PNG/512/iconfinder-reddit-4661631_122483.png" />][reddit] [<img align="left" alt="zer0Kerbal | Patreon" width="32px" src="https://cdn.icon-icons.com/icons2/2429/PNG/512/patreon_logo_icon_147253.png" />][PATREON:url] [<img align="left" alt="zer0Kerbal | YouTube" width="32px" src="https://cdn.icon-icons.com/icons2/836/PNG/512/Youtube_icon-icons.com_66802.png" />][youtube] [<img align="left" alt="zer0Kerbal | Twitch" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/twitch_logo_icon_170383.png" />][twitch] [<img align="left" alt="zer0Kerbal | PayPal" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/paypal_logo_icon_168055.png" />][PAYPAL:url] [<img align="left" alt="zer0Kerbal | Buy Me a Coffee" width="32px" src="https://www.buymeacoffee.com/assets/img/bmc-meta-new/new/favicon.ico" />][BMCC:url] [<img align="left" alt="zer0Kerbal | Twitter" width="32px" src="https://cdn.icon-icons.com/icons2/836/PNG/32/Twitter_icon-icons.com_66803.png" />][twitter]</br>
-
-<!-- footnotes -->
-[^1]: this isn't a mod. ;P  
-[^2]: ***may*** work on other versions (YMMV)  
-[^3]: *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date!*  
-
-[//]: # (This behaves like a comment)
+* [issues][MOD:issue]
+* [projects](https://github.com/zer0Kerbal/MIR/projects/)
+* [releases](https://github.com/zer0Kerbal/MIR/releases/)
