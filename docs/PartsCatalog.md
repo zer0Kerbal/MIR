@@ -30,24 +30,24 @@ This add-on adds nine (9) resource parts
 
 * MicroPad
 * OrbitalDock
-https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-core_icon.png
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-tks-zarya_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-core_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-dockingmodule-1_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-kvant-1v_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-kvant-solar_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-port-apas-1_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-rcs-block-1_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-solar_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-solar-top_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-tks-dock-cap_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-tks-dock-drogue_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-tks-dock-probe_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-tks-kristall-1_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-tks-kvant-2v_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-tks-priroda_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-tks-spektr_icon.png)
-![PartsCatalog](https://raw/githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs\mir-tks-tug_icon.png)
+/mir-core_icon.png
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-zarya_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-core_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-dockingmodule-1_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-kvant-1v_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-kvant-solar_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-port-apas-1_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-rcs-block-1_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-solar_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-solar-top_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-dock-cap_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-dock-drogue_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-dock-probe_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-kristall-1_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-kvant-2v_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-priroda_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-spektr_icon.png)
+![PartsCatalog](https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-tug_icon.png)
 
 ---
 
