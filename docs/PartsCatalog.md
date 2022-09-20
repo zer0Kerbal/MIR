@@ -19,7 +19,7 @@ updated: 15 May 2022 -->
 
 ## Parts Catalog
 
-This add-on adds nine (9) resource parts
+This add-on adds seventeen (17) station parts parts designed to recreate the MIR space stations
 
 ---
 
