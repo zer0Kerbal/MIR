@@ -33,7 +33,7 @@
 		"NAME" :	  "MIR",
 		"DIRECTORY" : "BobCat/Soviet/MIR"
 	},
-	"INSTALL_LOC_1" :
+	"INSTALL_LOC" :
 	{
 		"NAME" :	  "Subassemblies",
 		"DIRECTORY" : "Subassemblies"
