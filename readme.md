@@ -93,7 +93,11 @@ or [![CKAN][ckan:img]][ckan:url]
 * [On Demand Fuel Cells (ODFC)][ODFC]
 * [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
 * [TweakScale][twk]
-* Other [BobCat Industries][BOBCATIND] addons
+
+#### [BobCatInd][BOBCATIND] addons
+
+* The collection of [BobCat Industries][BOBCATIND]
+  * [Soviet Engines][SOVIETENGINES]
   * Soviet Pack
     * [Buran][BURAN]
     * [Kliper][KLIPER]
@@ -102,7 +106,6 @@ or [![CKAN][ckan:img]][ckan:url]
     * [N1L3][N1L3]
     * [Progress][PROGRESS]
     * [Proton][PROTON]
-    * [Soviet Engines][SOVIETENGINES]
     * [Soyuz][SOYUZ]
     * [SoyuzU][SOYUZU]
   * [JoolV][JOOLV]
@@ -238,6 +241,22 @@ parts, config
 <!-- links to add-ons/mods -->
 [GPO]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPO SpeedPump (GPO)"
 [ODFC]: https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*/ "On Demand Fuel Cells (ODFC)"
+
+[BOBCATIND]: https://forum.kerbalspaceprogram.com/index.php?/topic/209729-*/ "BobCatInd"
+[BURAN]: https://github.com/zer0Kerbal/Buran "Buran"
+[KLIPER]: https://github.com/zer0Kerbal/Kliper "Kliper"
+[LUNOKCHOD1]: https://github.com/zer0Kerbal/Lunokchod1 "Lunokchod1"
+[MIR]: https://forum.kerbalspaceprogram.com/index.php?/topic/204186-*/ "MIR"
+[N1L3]: https://github.com/zer0Kerbal/N1L3 "N1L3"
+[PROGRESS]: https://github.com/zer0Kerbal/Progress "Progress"
+[PROTON]: https://github.com/zer0Kerbal/Proton "Proton"
+[SOVIETENGINES]: https://github.com/zer0Kerbal/SovietEnginePack "Soviet Engines"
+[SOYUZ]: https://github.com/zer0Kerbal/Soyuz "Soyuz"
+[SOYUZU]: https://github.com/zer0Kerbal/SoyuzU "SoyuzU"
+[JOOLV]: https://github.com/zer0Kerbal/JoolV "JoolV"
+[NAUTILUS]: https://github.com/zer0Kerbal/Nautilus "Nautilus"
+[HOME]: https://github.com/zer0Kerbal/HOME "HOME"
+
 
 [atp]: https://forum.kerbalspaceprogram.com/index.php?/topic/138433-*/ "JSI Advanced Transparent Pods"
 [b9ps]: https://forum.kerbalspaceprogram.com/index.php?/topic/140541-*/ "B9 Part Switch"
