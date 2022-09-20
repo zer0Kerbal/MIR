@@ -44,6 +44,7 @@ This add-on adds nine (9) resource parts
   <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-kvant-solar_icon.png" alt="mir-kvant-solar" width="25%" height="25%" />
 
 * MIR port-apas-1
+
   <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-port-apas-1_icon.png" alt="MIR port-apas-1" width="25%" height="25%" />
 
 * mir-rcs-block-1
