@@ -286,5 +286,6 @@ parts, config
 
 #### Track Progress
 
-* issues [here][MOD:issue]
-* projects [here](https://github.com/zer0Kerbal/MIR/projects/)
+* [issues][MOD:issue]
+* [projects](https://github.com/zer0Kerbal/MIR/projects/)
+* [releases](https://github.com/zer0Kerbal/MIR/releases/)
