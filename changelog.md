@@ -29,6 +29,19 @@
   * DECQ/Dragon01: All Rights Reserved -->
   * BobCat: CC BY-NC-ND 3.0 -->
 
+---
+
+### Version 4.0.98.2-alpha `<Beta 0>` edition
+
+* 23 Sep 2022
+* For Kerbal Space Program 1.12.3
+
+#### Changes
+
+DRAG_
+
+---
+
 ### Version 4.0.98.1-alpha `<Alpha 1>` edition
 
 * 18 Sep 2022
