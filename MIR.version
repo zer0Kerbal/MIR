@@ -13,8 +13,8 @@
 	{
 		"MAJOR" : 4,
 		"MINOR" : 0,
-		"PATCH" : 99,
-		"BUILD" : 0
+		"PATCH" : 98,
+		"BUILD" : 1
 	},
 	"KSP_VERSION" :
 	{
@@ -28,9 +28,14 @@
 		"MINOR" : 3,
 		"PATCH" : 1
 	},
-	"INSTALL_LOC" :
+	"INSTALL_LOC_0" :
 	{
 		"NAME" :	  "MIR",
 		"DIRECTORY" : "BobCat/Soviet/MIR"
+	},
+	"INSTALL_LOC_1" :
+	{
+		"NAME" :	  "Subassemblies",
+		"DIRECTORY" : "Subassemblies"
 	}
 }
