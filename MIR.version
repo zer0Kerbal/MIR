@@ -28,7 +28,7 @@
 		"MINOR" : 3,
 		"PATCH" : 1
 	},
-	"INSTALL_LOC_0" :
+	"INSTALL_LOC" :
 	{
 		"NAME" :	  "MIR",
 		"DIRECTORY" : "BobCat/Soviet/MIR"
