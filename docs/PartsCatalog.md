@@ -23,31 +23,72 @@ This add-on adds nine (9) resource parts
 
 ---
 
-* Mallet *(Only with Kerbal Inventory System installed)*
-* SurveyStake
+* MIR core
 
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/GameData/MIR/Parts/%40thumbs/ElMallet_icon.png" alt="Mallet" width="25%" height="25%" /> <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/GameData/MIR/Parts/%40thumbs/ELSurveyStake_icon.png" alt="SurveyStake" width="25%" height="25%" />
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-core_icon.png" alt="mir-core" width="25%" height="25%" />
 
-* MicroPad
-* OrbitalDock
-/mir-core_icon.png
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-zarya_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-core_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-dockingmodule-1_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-kvant-1v_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-kvant-solar_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-port-apas-1_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-rcs-block-1_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-solar_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-solar-top_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-dock-cap_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-dock-drogue_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-dock-probe_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-kristall-1_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-kvant-2v_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-priroda_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-spektr_icon.png" alt"" width="25%" height="25%" />
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-tug_icon.png" alt"" width="25%" height="25%" />
+* TKS Zarya
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-zarya_icon.png" alt="TKS Zarya" width="25%" height="25%" />
+
+* mir-dockingmodule-1
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-dockingmodule-1_icon.png" alt="mir-dockingmodule-1" width="25%" height="25%" />
+
+* mir-kvant-1v
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-kvant-1v_icon.png" alt="mir-kvant-1v" width="25%" height="25%" />
+
+* mir-kvant-solar
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-kvant-solar_icon.png" alt="mir-kvant-solar" width="25%" height="25%" />
+
+* MIR port-apas-1
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-port-apas-1_icon.png" alt="MIR port-apas-1" width="25%" height="25%" />
+
+* mir-rcs-block-1
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-rcs-block-1_icon.png" alt="mir-rcs-block-1" width="25%" height="25%" />
+
+* mir-solar
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-solar_icon.png" alt="mir-solar" width="25%" height="25%" />
+
+* mir-solar-top
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-solar-top_icon.png" alt="mir-solar-top" width="25%" height="25%" />
+
+* mir-tks-dock-cap
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-dock-cap_icon.png" alt="mir-tks-dock-cap" width="25%" height="25%" />
+
+* mir-tks-dock-drogue
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-dock-drogue_icon.png" alt="mir-tks-dock-drogue" width="25%" height="25%" />
+
+* mir-tks-dock-probe
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-dock-probe_icon.png" alt="mir-tks-dock-probe" width="25%" height="25%" />
+
+* mir-tks-kristall-1
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-kristall-1_icon.png" alt="mir-tks-kristall-1" width="25%" height="25%" />
+
+* mir-tks-kvant-2v
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-kvant-2v_icon.png" alt="mir-tks-kvant-2v" width="25%" height="25%" />
+
+* mir-tks-priroda
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-priroda_icon.png" alt="mir-tks-priroda" width="25%" height="25%" />
+
+* mir-tks-spektr
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-spektr_icon.png" alt="mir-tks-spektr" width="25%" height="25%" />
+
+* mir-tks-tug
+
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/%40thumbs/mir-tks-tug_icon.png" alt="mir-tks-tug" width="25%" height="25%" />
 
 ---
 
