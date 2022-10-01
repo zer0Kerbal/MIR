@@ -14,6 +14,20 @@ updated:
 CC BY-ND 4.0 by zer0Kerbal
 --># Changelog  
   
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+| modName    | MIR (MIS)                                                   |
+| ---------- | ----------------------------------------------------------- |
+| license    | CC-BY-ND-4.0                                                |
+| author     | BobCat, DECQ, Dragon01, Sampa and zer0Kerbal                |
+| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/-*/) |
+| github     | (https://github.com/zer0Kerbal/zer0Kerbal/MIR)              |
+| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/MIR)            |
+| spacedock  | (https://spacedock.info/mod/)                               |
+| ckan       | MIR                                                         |
+=======
+>>>>>>> Stashed changes
 | modName    | MIR (MIS)                                                         |
 | ---------- | ----------------------------------------------------------------- |
 | license    | CC-BY-ND-4.0                                                      |
@@ -43,6 +57,39 @@ CC BY-ND 4.0 by zer0Kerbal
   * DECQ/Dragon01: All Rights Reserved -->
   * BobCat: CC BY-NC-ND 3.0 -->
 
+<<<<<<< Updated upstream
+=======
+---
+
+## Version 4.0.98.2-beta `<Beta 0>` edition
+
+* 30 Sep 2022
+* For Kerbal Space Program 1.12.3
+
+### Changes
+
+* Add
+  * [DRAG_CUBES] to parts
+* Update
+  * <mir-tks-dock-probe.cfg> v1.2.0.1
+    * docking port: male/gendered
+  * <mir-tks-dock-drogue.cfg> v1.2.0.1
+    * docking port: female/gendered
+* Known Issues
+  * EC not flowing
+    * <mir-solar.cfg> v1.0.0.1
+    * <mir-kvant-solar.cfg> v1.0.0.1
+      * comment out [power curve] (test)
+
+### Localization 4.0.98.2
+
+* simplify localization ID's
+  * from: #MIR-mir-*
+  * to: #MIR-*
+
+---
+
+>>>>>>> Stashed changes
 ### Version 4.0.98.1-alpha `<Alpha 1>` edition
 
 * 18 Sep 2022
@@ -166,6 +213,10 @@ Soyuz_solar_bump.png
   * <KerbalAttachmentSystem.cfg>
 
 ---
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 
 ## Version 4.0.0.0-release `<Archival>` edition
 
@@ -190,6 +241,6 @@ Soyuz_solar_bump.png
 
 ---
 
-If we are able to recover release notes we will add them
+If we are able to recover release notes we will add them here (or below)
 
 ---
