@@ -31,22 +31,11 @@
 	"INSTALL_LOC" :
 	{
 		"NAME" :	  "MIR",
-<<<<<<< Updated upstream:GameData/BobCat/SovietPack/MIR/MIR.version
-		"DIRECTORY" : "BobCat/Soviet/MIR"
-=======
-<<<<<<< Updated upstream:GameData/MIR/MIR.version
-		"DIRECTORY" : "MIR"
-=======
 		"DIRECTORY" : "BobCat/SovietPack/MIR"
->>>>>>> Stashed changes:GameData/MIR/MIR.version
 	},
 	"INSTALL_LOC" :
 	{
 		"NAME" :	  "Subassemblies",
 		"DIRECTORY" : "Subassemblies"
-<<<<<<< Updated upstream:GameData/BobCat/SovietPack/MIR/MIR.version
-=======
->>>>>>> Stashed changes:GameData/BobCat/SovietPack/MIR/MIR.version
->>>>>>> Stashed changes:GameData/MIR/MIR.version
 	}
 }
