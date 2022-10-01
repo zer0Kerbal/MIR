@@ -31,6 +31,7 @@
 
 ---
 
+<<<<<<< Updated upstream
 ### Version 4.0.98.2-alpha `<Beta 0>` edition
 
 * 23 Sep 2022
@@ -39,6 +40,33 @@
 #### Changes
 
 DRAG_
+=======
+## Version 4.0.98.2-beta `<Beta 0>` edition
+
+* 30 Sep 2022
+* For Kerbal Space Program 1.12.3
+
+### Changes
+
+* Add
+  * [DRAG_CUBES] to parts
+* Update
+  * <mir-tks-dock-probe.cfg> v1.2.0.1
+    * docking port: male/gendered
+  * <mir-tks-dock-drogue.cfg> v1.2.0.1
+    * docking port: female/gendered
+* Known Issues
+  * EC not flowing
+    * <mir-solar.cfg> v1.0.0.1
+    * <mir-kvant-solar.cfg> v1.0.0.1
+      * comment out [power curve] (test)
+
+### Localization 4.0.98.2
+
+* simplify localization ID's
+  * from: #MIR-mir-*
+  * to: #MIR-*
+>>>>>>> Stashed changes
 
 ---
 
@@ -189,6 +217,10 @@ Soyuz_solar_bump.png
 
 ---
 
+<<<<<<< Updated upstream
 If we are able to recover release notes we will add them
+=======
+If we are able to recover release notes we will add them here (or below)
+>>>>>>> Stashed changes
 
 ---
