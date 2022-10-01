@@ -40,6 +40,17 @@
 
 * Add
   * [DRAG_CUBES] to parts
+* Update
+  * <mir-tks-dock-probe.cfg> v1.2.0.1
+    * docking port: male/gendered
+  * <mir-tks-dock-drogue.cfg> v1.2.0.1
+    * docking port: female/gendered
+* Known Issues
+  * EC not flowing
+    * <mir-solar.cfg> v1.0.0.1
+    * <mir-kvant-solar.cfg> v1.0.0.1
+
+### Localization 4.0.98.2
 
 * simplify localization ID's
   * from: #MIR-mir-*
