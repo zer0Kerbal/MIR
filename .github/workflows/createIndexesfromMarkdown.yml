@@ -21,8 +21,8 @@ jobs:
     steps:
       # - uses: actions/checkout@latest
       - uses: actions/checkout@v3.0.2
-      - uses: DaanV2/Markdown-Action-Create-Indexes@latest
-      # - uses: DaanV2/Markdown-Action-Create-Indexes@v1.7.0
+      # - uses: DaanV2/Markdown-Action-Create-Indexes@latest
+      - uses: DaanV2/Markdown-Action-Create-Indexes@v1.7.0
         with: 
           folder: ${{github.workspace}}/docs/
 
