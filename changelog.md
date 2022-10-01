@@ -31,14 +31,19 @@
 
 ---
 
-### Version 4.0.98.2-alpha `<Beta 0>` edition
+## Version 4.0.98.2-beta `<Beta 0>` edition
 
-* 23 Sep 2022
+* 30 Sep 2022
 * For Kerbal Space Program 1.12.3
 
-#### Changes
+### Changes
 
-DRAG_
+* Add
+  * [DRAG_CUBES] to parts
+
+* simplify localization ID's
+  * from: #MIR-mir-*
+  * to: #MIR-*
 
 ---
 
@@ -189,6 +194,6 @@ Soyuz_solar_bump.png
 
 ---
 
-If we are able to recover release notes we will add them
+If we are able to recover release notes we will add them here (or below)
 
 ---
