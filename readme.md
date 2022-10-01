@@ -53,6 +53,7 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 ### Help Wanted
 
+> * ***Solar panels:*** suncatcher and suntracking
 > * Compatibility patches
 > * Contracts for these glorious parts
 > * Variant Textures
@@ -60,6 +61,12 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 > * Model updates to Unity 2019
 > * Marketing Images and Videos such as hero shots, animated gifs, short highlight
 > * Have a request? Glad to have them, kindly submit through [GitHub][MOD:issue].
+
+* Release Schedule
+
+1. GitHub, reaching first manual installers and users of KSP-AVC.
+2. CurseForge. Right now.
+3. SpaceDock (and CKAN users). Soon™
 
 ---
 
