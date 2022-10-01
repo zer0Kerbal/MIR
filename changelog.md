@@ -10,6 +10,7 @@
 | spacedock  | (https://spacedock.info/mod/3115)                                 |
 | ckan       | MIR                                                               |
 
+<<<<<<< Updated upstream
 ## Version 4.0.99.0-adoption `<Thank you BobCat, DECQ, and Dragon01>` edition
 
 ### Summary 4.0.98.0
@@ -31,16 +32,41 @@
 
 ---
 
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 ## Version 4.0.98.2-beta `<Beta 0>` edition
 
 * 30 Sep 2022
 * For Kerbal Space Program 1.12.3
 
+<<<<<<< Updated upstream
+=======
+### Summary 4.0.98.2-beta
+
+* stock RCSFX working
+* [WIP] docking port: (TKS drogue and probe) now gendered
+
+* Known Issues
+  * solar panels
+    * not sun tracking
+    * not generating EC
+    * but they look good and the animations are awesome!
+  * several parts use [ModuleEngines] instead of [ModuleEnginesFX]
+  * reported shadow bugs on some of the components
+
+>>>>>>> Stashed changes
 ### Changes
 
 * Add
   * [DRAG_CUBES] to parts
 * Update
+<<<<<<< Updated upstream
+=======
+  * <mir-rcs-block-1.cfg> v1.2.2.1
+    * stock RCSFX working
+>>>>>>> Stashed changes
   * <mir-tks-dock-probe.cfg> v1.2.0.1
     * docking port: male/gendered
   * <mir-tks-dock-drogue.cfg> v1.2.0.1
@@ -183,6 +209,10 @@ Soyuz_solar_bump.png
 
 ---
 
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 ## Version 4.0.0.0-release `<Archival>` edition
 
 * 2014
