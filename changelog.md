@@ -49,6 +49,7 @@
   * EC not flowing
     * <mir-solar.cfg> v1.0.0.1
     * <mir-kvant-solar.cfg> v1.0.0.1
+      * comment out [power curve] (test)
 
 ### Localization 4.0.98.2
 
