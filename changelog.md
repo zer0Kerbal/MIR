@@ -10,6 +10,21 @@
 | spacedock  | (https://spacedock.info/mod/3115)                                 |
 | ckan       | MIR                                                               |
 
+## Version 4.0.98.3-beta `<Beta 2>` edition
+
+* 15 Oct 2022
+* For Kerbal Space Program 1.12.3
+
+### Summary 4.0.98.3
+
+### Changes 4.0.98.3
+
+### Status 4.0.98.3
+
+* Issues
+
+---
+
 ## Version 4.0.98.2-beta `<Beta 0>` edition
 
 * 30 Sep 2022
