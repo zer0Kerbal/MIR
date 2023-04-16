@@ -17,7 +17,7 @@ this file: CC BY-ND 4.0 by zer0Kerbal -->
 
 The Soviet Space Station MIR for Kerbal Space Program.
 
-## By [`zer0Kerbal`][zer0Kerbal] and [Sampa][sampa], originally by [BobCat][bobcat], [`DECQ`][decq] and [Dragon01][dragon01]
+## By [zer0Kerbal][zer0Kerbal] and [Sampa][sampa], originally by [BobCat][bobcat], [DECQ][decq] and [Dragon01][dragon01]
 
 adopted with *express* permission and brought to you by *KerbSimpleCo*
 
@@ -146,12 +146,12 @@ parts, config
 
 ### Legal Mumbo Jumbo (License *provenance*)
 
-#### Author (3) - [`Sampa`][sampa] and [`zer0Kerbal`][zer0Kerbal]
+#### Author (3) - [Sampa][sampa] and [zer0Kerbal][zer0Kerbal]
 
 > Forum: [Thread][forum] - Source: [GitHub][GITHUB:url]  
 > License: [![License][LIC:shd]][LIC:url] ![License][LIC:log]
 
-#### Original (2) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
+#### Original (2) - Author: [DECQ][decq] and [Dragon01][dragon01]
 
 > Forum: [Thread][MOD:2:thread] - Download: [CurseForge][MOD:2:dnload] - Source: [GitHub][MOD:2:source]  
 > License: [![License][LIC:2:shd]][LIC:2:url] ![License][LIC:2:log]
@@ -160,7 +160,7 @@ parts, config
 >
 > [DECQ Link](https://forum.kerbalspaceprogram.com/index.php?/topic/79479-energia-project-v15a-mir-v4/&do=findComment&comment=3939818) "It's okay if you have the urge to accept this and publish, you are free to do so."
 
-#### Original (1) - Author: [`DECQ`][decq] and [`Dragon01`][dragon01]
+#### Original (1) - Author: [DECQ][decq] and [Dragon01][dragon01]
 
 > Forum: [Thread][MOD:1:thread] - Download: [Dropbox][MOD:1:dnload] - Source: [Dropbox][MOD:1:source]  
 > License: [![License][LIC:1:shd]][LIC:1:url]
@@ -168,7 +168,7 @@ parts, config
 > This project used models, textures and configs from [BobCat][bobcat]'s [Soviet Pack 2.0](https://forum.kerbalspaceprogram.com/index.php?/topic/22749-*/) with permission.
 >
 
-#### Original (0) - Author: [`BobCat`][bobcat]
+#### Original (0) - Author: [BobCat][bobcat]
 
 > Forum: [Thread][MOD:0:thread] - Download: [Wayback Machine][MOD:0:dnload] - Source: [Wayback Machine][MOD:0:source]  
 > License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]
@@ -181,7 +181,7 @@ parts, config
 >* ***All assets, including but not limited to: animations, models, sounds and textures are distributed under their own licenses. [![License][LIC:1:shd]][LIC:1:url]***
 >
 >* see [Notices][notic] for more *legal Mumbo Jumbo*
-### How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]
+### How to support this and other great mods by [zer0Kerbal][zer0Kerbal]
 
 Comment, click, like, share, up-vote, subscribe
 
