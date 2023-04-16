@@ -7,7 +7,7 @@ TEMPLATE: readme.md v1.7.2.1
 created: 17 Jul 2017
 updated: 15 Apr 2023
 
-this file: CC BY-ND 4.0 by zer0Kerbal -->
+THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 
 [![Мир (MIR)][SHD:mod]][CURSFG:url]  
 [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
