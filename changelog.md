@@ -10,6 +10,15 @@
 | spacedock  | (https://spacedock.info/mod/3115)                                 |
 | ckan       | MIR                                                               |
 
+## Version 4.0.99.0-adoption `<Thank you BobCat, DECQ, and Dragon01>` edition
+
+* Released
+  * 15 Apr 2023
+  * for Kerbal Space Program 1.12.5
+  * by [sampa](https://github.com/Toa-Sampa) and [zer0Kerbal](https://github.com/zer0Kerbal)
+
+---
+
 ## Version 4.0.98.2-beta `<Beta 0>` edition
 
 * 30 Sep 2022
