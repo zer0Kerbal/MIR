@@ -1,5 +1,5 @@
 <!-- readme.md v4.0.99.0
-MIR (MIR)
+Мир (MIR)
 created: 2014
 updated: 15 Apr 2023
 
@@ -9,7 +9,7 @@ updated: 15 Apr 2023
 
 this file: CC BY-ND 4.0 by zer0Kerbal -->
 
-[![MIR (MIR)][SHD:mod]][CURSFG:url]  
+[![Мир (MIR)][SHD:mod]][CURSFG:url]  
 [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
 [![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![Pages][SHD:pgs]][pages]
 
