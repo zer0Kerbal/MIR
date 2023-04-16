@@ -204,7 +204,7 @@ Comment, click, like, share, up-vote, subscribe
 
 <!--- shields -->
 [SHD:mod]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MIR/master/json/mod.json
-[SHD:pages]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
+[SHD:pgs]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
 <!--- mod provenance -->
 [MOD:2:dnload]: https://www.curseforge.com/kerbal/ksp-mods/MIR "CurseForge"
