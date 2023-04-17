@@ -1,6 +1,6 @@
 # Changelog  
   
-| modName    | MIR (MIS)                                                         |
+| modName    | Мир (MIR)                                                         |
 | ---------- | ----------------------------------------------------------------- |
 | license    | CC-BY-ND-4.0                                                      |
 | author     | BobCat, DECQ, Dragon01, Sampa and zer0Kerbal                      |
@@ -16,6 +16,8 @@
   * 15 Apr 2023
   * for Kerbal Space Program 1.12.5
   * by [sampa](https://github.com/Toa-Sampa) and [zer0Kerbal](https://github.com/zer0Kerbal)
+
+rename from MIR (MIR) to Мир (MIR)
 
 ---
 
@@ -57,8 +59,8 @@
 ### Localization 4.0.98.2
 
 * simplify localization ID's
-  * from: #MIR-mir-*
-  * to: #MIR-*
+  * from: #МИР-mir-*
+  * to: #МИР-*
 * updates #12 - Localization - Master
 * updates #30 - Part Localization
 * updates #13 - English <us-en.cfg>
