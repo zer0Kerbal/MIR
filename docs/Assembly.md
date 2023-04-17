@@ -29,7 +29,7 @@ updated: 16 Apr 2023
 
 ### English
 
-![English Assembly Guide](https://zer0kerbal.github.io/MIR/Assembly-Mir-en-us.html)
+* [English Assembly Guide](https://zer0kerbal.github.io/MIR/Assembly-Mir-en-us.html)
 
 [top](#table-of-contents)
 
