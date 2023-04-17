@@ -62,8 +62,8 @@ CC BY-ND 4.0 by zer0Kerbal
 ### Localization 4.0.98.2
 
 * simplify localization ID's
-  * from: #MIR-mir-*
-  * to: #MIR-*
+  * from: #МИР-mir-*
+  * to: #МИР-*
 * updates #12 - Localization - Master
 * updates #30 - Part Localization
 * updates #13 - English <us-en.cfg>
