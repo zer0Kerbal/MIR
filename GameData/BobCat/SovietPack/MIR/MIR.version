@@ -1,5 +1,5 @@
 {
-	"NAME"			 : "MIR (MIR) Space Station, part of BobCat Industries Soviet Pack",
+	"NAME"			 : "MIR (Мир) Space Station, part of BobCat Industries Soviet Pack",
 	"URL"			 : "https://raw.githubusercontent.com/zer0Kerbal/MIR/master/MIR.version",
 	"DOWNLOAD"		 : "https://github.com/zer0Kerbal/MIR/releases/latest",
 	"CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/MIR/master/changelog.md",
@@ -13,14 +13,14 @@
 	{
 		"MAJOR" : 4,
 		"MINOR" : 0,
-		"PATCH" : 98,
-		"BUILD" : 2
+		"PATCH" : 99,
+		"BUILD" : 0
 	},
 	"KSP_VERSION" :
 	{
 		"MAJOR" : 1,
 		"MINOR" : 12,
-		"PATCH" : 3
+		"PATCH" : 5
 	},
 	"KSP_VERSION_MIN" :
 	{

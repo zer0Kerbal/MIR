@@ -1,6 +1,6 @@
 # Changelog  
   
-| modName    | MIR (MIS)                                                         |
+| modName    | MIR (Мир)                                                         |
 | ---------- | ----------------------------------------------------------------- |
 | license    | CC-BY-ND-4.0                                                      |
 | author     | BobCat, DECQ, Dragon01, Sampa and zer0Kerbal                      |
