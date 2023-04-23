@@ -1,6 +1,6 @@
 # Changelog  
   
-| modName    | Мир (MIR)                                                         |
+| modName    | MIR (Мир)                                                         |
 | ---------- | ----------------------------------------------------------------- |
 | license    | CC-BY-ND-4.0                                                      |
 | author     | BobCat, DECQ, Dragon01, Sampa and zer0Kerbal                      |
@@ -17,7 +17,13 @@
   * for Kerbal Space Program 1.12.5
   * by [sampa](https://github.com/Toa-Sampa) and [zer0Kerbal](https://github.com/zer0Kerbal)
 
-rename from MIR (MIR) to Мир (MIR)
+### Change Summary 4.0.99.0
+
+* Dependancy
+  * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+* fully localized
+* ghostparts 2.0
+* MIR core mass reduced.
 
 ---
 
