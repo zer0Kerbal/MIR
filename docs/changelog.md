@@ -2,19 +2,17 @@
 permalink: /Changelog.html
 title: The Change Log
 description: The Opening Credits, and the closing credits, plus the first of two (or is three) end credit scenes
-# layout: bare
 tags: changes,changelog,change-log,page,kerbal,ksp,zer0Kerbal,zedK
 ---
-
 <!-- 
 hdr-changelog.md v1.0.0.0
-MIR
+MIR (Мир)
 created: 13 May 2022
-updated:
+updated: 15 Apr 2023
 CC BY-ND 4.0 by zer0Kerbal
 --># Changelog  
   
-| modName    | MIR (MIS)                                                         |
+| modName    | MIR (Мир)                                                         |
 | ---------- | ----------------------------------------------------------------- |
 | license    | CC-BY-ND-4.0                                                      |
 | author     | BobCat, DECQ, Dragon01, Sampa and zer0Kerbal                      |
@@ -23,6 +21,23 @@ CC BY-ND 4.0 by zer0Kerbal
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/MIR)                  |
 | spacedock  | (https://spacedock.info/mod/3115)                                 |
 | ckan       | MIR                                                               |
+
+## Version 4.0.99.0-adoption `<Thank you BobCat, DECQ, and Dragon01>` edition
+
+* Released
+  * 15 Apr 2023
+  * for Kerbal Space Program 1.12.5
+  * by [sampa](https://github.com/Toa-Sampa) and [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Change Summary 4.0.99.0
+
+* Dependancy
+  * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+* fully localized
+* ghostparts 2.0
+* MIR core mass reduced.
+
+---
 
 ## Version 4.0.98.2-beta `<Beta 0>` edition
 
@@ -216,3 +231,4 @@ CC BY-ND 4.0 by zer0Kerbal
 If we are able to recover release notes we will add them here (or below)
 
 ---
+
