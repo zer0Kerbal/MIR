@@ -10,6 +10,42 @@
 | spacedock  | (https://spacedock.info/mod/3115)                                 |
 | ckan       | MIR                                                               |
 
+## Version 4.0.99.0-adoption `<Thank you BobCat, DECQ, and Dragon01>` edition
+
+* Released
+  * 20 Apr 2023
+  * for Kerbal Space Program 1.12.5
+  * by [sampa](https://github.com/Toa-Sampa) and [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Change Summary 4.0.99.0
+
+* Dependancy
+  * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+* fully localized
+* ghostparts 2.0
+* MIR core mass reduced.
+
+### Changes 4.0.99.0
+
+* Issues
+  * closes #1 - Мир (MIR) 4.0.99.0-adoption `<Thank you BobCat, DECQ, and Dragon01>`
+  * closes #2 - 4.0.99.0 Create Legal Mumbo Jumbo
+  * closes #3 - 4.0.99.0 Create Documentation
+  * closes #4 - 4.0.99.0 Create Social Media Presence
+  * closes #43 - Мир (MIR) 4.0.99.0-adoption `<Thank you BobCat, DECQ, and Dragon01>`
+  * closes #5 - Create GitHub Pages
+  * closes #6 - Create HeroLogo.png
+  * closes #8 - Create Localization directory and contents
+  * closes #9 - Part Asset Updates
+  * closes #10 - Create MIR.cfg
+  * closes #11 - Update License
+  * closes #13 - English <us-en.cfg>
+  * closes #30 - Part Localization
+  * updates #12 - Localization - Master
+  * updates #48 - Update RealismOverhaul patch
+
+---
+
 ## Version 4.0.98.2-beta `<Beta 0>` edition
 
 * 30 Sep 2022
