@@ -59,8 +59,8 @@ rename from MIR (MIR) to Мир (MIR)
 ### Localization 4.0.98.2
 
 * simplify localization ID's
-  * from: #МИР-mir-*
-  * to: #МИР-*
+  * from: #MIR-mir-*
+  * to: #MIR-*
 * updates #12 - Localization - Master
 * updates #30 - Part Localization
 * updates #13 - English <us-en.cfg>
