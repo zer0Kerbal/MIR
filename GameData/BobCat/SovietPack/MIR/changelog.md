@@ -1,6 +1,6 @@
 # Changelog  
   
-| modName    | MIR (MIS)                                                         |
+| modName    | MIR (Мир)                                                         |
 | ---------- | ----------------------------------------------------------------- |
 | license    | CC-BY-ND-4.0                                                      |
 | author     | BobCat, DECQ, Dragon01, Sampa and zer0Kerbal                      |
@@ -9,6 +9,23 @@
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/MIR)                  |
 | spacedock  | (https://spacedock.info/mod/3115)                                 |
 | ckan       | MIR                                                               |
+
+## Version 4.0.99.0-adoption `<Thank you BobCat, DECQ, and Dragon01>` edition
+
+* Released
+  * 15 Apr 2023
+  * for Kerbal Space Program 1.12.5
+  * by [sampa](https://github.com/Toa-Sampa) and [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Change Summary 4.0.99.0
+
+* Dependancy
+  * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+* fully localized
+* ghostparts 2.0
+* MIR core mass reduced.
+
+---
 
 ## Version 4.0.98.2-beta `<Beta 0>` edition
 
