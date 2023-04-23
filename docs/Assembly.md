@@ -5,7 +5,7 @@ description: Some Assembly Required, batteries not included
 tags: assembly,blueprint,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
 ---
 <!-- Assembly.md v1.0.0.0
-Мир (MIR)
+MIR (Мир)
 created: 12 Sep 2022
 updated: 16 Apr 2023
 
@@ -17,7 +17,7 @@ updated: 16 Apr 2023
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa-solid fa-helmet-safety fa-beat-fade fa-3x" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: #FF8200" ></i>
 
-# [Мир (MIR)](https://www.curseforge.com/kerbal/ksp-mods/MIR) [WIP]
+# [MIR (Мир)](https://www.curseforge.com/kerbal/ksp-mods/MIR) [WIP]
 
 [Home](./index.md)
 
