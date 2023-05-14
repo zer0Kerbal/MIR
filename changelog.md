@@ -17,9 +17,24 @@
   * for Kerbal Space Program 1.12.5
   * by [sampa](https://github.com/Toa-Sampa) and [zer0Kerbal](https://github.com/zer0Kerbal)
 
-* Спасибо, Сампа. Spasibo, Sampa.
-* Have sat the three parts with [ModuleDockingNode] down and talked with them about the birds and the bee's - and set them straight.
-* and one (drogue) was set to True/True while the other (probe) was set to False/True.
+* 📌 Pinned
+  * Dependency
+    * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+
+### Change Summary 4.0.99.1
+
+* BUG
+  * Drogue and Probe not docking
+    * Have sat the three parts with [ModuleDockingNode] down and had *'the talk'* with them - and set them straight.
+    * and one (drogue) was set to True/True while the other (probe) was set to False/True.
+    * Спасибо, Сампа! (Spasibo, Sampa!) to [Sampa](htps://github/Sampa)
+    * 
+
+### Changes 4.0.99.1
+
+* Issues
+  * closes #45 - Мир (MIR) 4.0.99.1-prerelease `<Thank you BobCat, DECQ, and Dragon01>` edition
+  * closes #46 - 4.0.99.1 Additional Tasks
 
 ---
 
@@ -32,11 +47,11 @@
 
 ### Change Summary 4.0.99.0
 
-* Dependancy
+* Dependency
   * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
 * fully localized
 * ghostparts 2.0
-* MIR core mass reduced.
+* MIR core mass reduced. (0.4968823529%)
 
 ### Changes 4.0.99.0
 
