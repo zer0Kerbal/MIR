@@ -25,9 +25,10 @@
 
 * BUG
   * Drogue and Probe not docking
-    * Have sat the three parts with [ModuleDockingNode] down and had *'the talk'* with them - and set them straight.
-    * and one (drogue) was set to True/True while the other (probe) was set to False/True.
-    * Спасибо, Сампа! (Spasibo, Sampa!) to [Sampa](htps://github/Sampa)
+    * Have sat the three parts with [ModuleDockingNode] down and had *'the talk'* with them.
+    * (drogue) was set to True/True - now True/True
+    * (probe) was set to False/True - now True/False
+    * Спасибо, Сампа! (Spasibo, Sampa!) to [Sampa](https://github.com/Toa-Sampa)
     * 
 
 ### Changes 4.0.99.1
