@@ -10,6 +10,19 @@
 | spacedock  | (https://spacedock.info/mod/3115)                                 |
 | ckan       | MIR                                                               |
 
+## Version 4.0.99.1-prerelease `<Спасибо Сампа>` edition
+
+* Released
+  * 13 May 2023
+  * for Kerbal Space Program 1.12.5
+  * by [sampa](https://github.com/Toa-Sampa) and [zer0Kerbal](https://github.com/zer0Kerbal)
+
+* Спасибо, Сампа. Spasibo, Sampa.
+* Have sat the three parts with [ModuleDockingNode] down and talked with them about the birds and the bee's - and set them straight.
+* and one (drogue) was set to True/True while the other (probe) was set to False/True.
+
+---
+
 ## Version 4.0.99.0-adoption `<Thank you BobCat, DECQ, and Dragon01>` edition
 
 * Released
