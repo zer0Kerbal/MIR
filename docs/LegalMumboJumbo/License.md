@@ -7,7 +7,7 @@ MIR (MIR)
 created: 01 Feb 2022
 updated: 07 Mar 2022 -->
 
-# [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/legalcode.txt)
+# [CC BY-ND 4.0+ARR](https://creativecommons.org/licenses/by-nd/4.0/legalcode.txt)
 
 ![CC](https://creativecommons.org/images/deed/svg/cc_blue.svg) ![Attribution](https://creativecommons.org/images/deed/svg/attribution_icon_blue.svg) ![NoDerivatives](https://creativecommons.org/images/deed/svg/nd_blue.svg)
 
