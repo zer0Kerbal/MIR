@@ -88,10 +88,10 @@ Most recent releases only available via CurseForge/OverWolf Website/App
     * [Buran][BURAN]
     * [Kliper][KLIPER]
     * [Lunokchod1][LUNOKCHOD1]
-    * [Мир][MIR]
+    * [Мир (MIR)][MIR]
     * [N1L3][N1L3]
     * [Progress][PROGRESS]
-    * [Proton][PROTON]
+    * [Протон (Proton)][PROTON]
     * [Soyuz][SOYUZ]
     * [SoyuzU][SOYUZU]
   * [JoolV][JOOLV]
@@ -273,7 +273,7 @@ Comment, click, like, share, up-vote, subscribe
 [MIR]: https://www.curseforge.com/kerbal/ksp-mods/MIR "MIR"
 [N1L3]: https://github.com/zer0Kerbal/N1L3 "N1L3"
 [PROGRESS]: https://github.com/zer0Kerbal/Progress "Progress"
-[PROTON]: https://github.com/zer0Kerbal/Proton "Proton"
+[PROTON]: https://www.curseforge.com/kerbal/ksp-mods/Proton "Proton"
 [SOVIETENGINES]: https://github.com/zer0Kerbal/SovietEnginePack "Soviet Engines"
 [SOYUZ]: https://github.com/zer0Kerbal/Soyuz "Soyuz"
 [SOYUZU]: https://github.com/zer0Kerbal/SoyuzU "SoyuzU"

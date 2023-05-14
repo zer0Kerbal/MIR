@@ -4,10 +4,10 @@ title: Assembly Instructions
 description: Some Assembly Required, batteries not included
 tags: assembly,blueprint,page,kerbal,ksp,zer0Kerbal,Lisias,zedK
 ---
-<!-- Assembly.md v1.0.0.0
+<!-- Assembly.md v1.0.0.1
 MIR (Мир)
 created: 12 Sep 2022
-updated: 16 Apr 2023
+updated: 01 May 2023
 
 TEMPLATE: Assembly.md v1.0.1.0
 created: 28 Aug 2022
@@ -24,7 +24,7 @@ updated: 16 Apr 2023
 ## Assembly Instructions
 
 <!-- no toc -->
-* Aessembly Guide (HTML)
+* Assembly Guide (HTML)
   * [English](#english)
 
 ### English
@@ -33,4 +33,7 @@ updated: 16 Apr 2023
 
 [top](#table-of-contents)
 
-<!-- THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
+THIS FILE: CC BY-ND 4.0 by zer0Kerbal
+  used with express permission from zer0Kerbal
+
+[mod]: https://www.curseforge.com/kerbal/ksp-mods/Mir "Mir (Mir)"
