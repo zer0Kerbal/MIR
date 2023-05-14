@@ -10,7 +10,7 @@
 | spacedock  | (https://spacedock.info/mod/3115)                                 |
 | ckan       | MIR                                                               |
 
-## Version 4.0.99.1-prerelease `<Спасибо, Сампа!>` edition
+## Version 4.0.99.1-prerelease `<Спасибо Сампа>` edition
 
 * Released
   * 13 May 2023
@@ -25,16 +25,17 @@
 
 * BUG
   * Drogue and Probe not docking
-    * Have sat the three parts with [ModuleDockingNode] down and talked with them about the birds and the bee's - and set them straight.
-    * and one (drogue) was set to True/True while the other (probe) was set to False/True.
-    * Спасибо, Сампа! (Spasibo, Sampa!) to [Sampa](htps://github/Sampa)
-    * 
+    * Have sat the three parts with [ModuleDockingNode] down and had *'the talk'* with them.
+    * (drogue) was set to True/True - now True/True
+    * (probe) was set to False/True - now True/False
+    * Спасибо, Сампа! (Spasibo, Sampa!) to [Sampa](https://github.com/Toa-Sampa)
 
 ### Changes 4.0.99.1
 
 * Issues
   * closes #45 - Мир (MIR) 4.0.99.1-prerelease `<Thank you BobCat, DECQ, and Dragon01>` edition
   * closes #46 - 4.0.99.1 Additional Tasks
+  * closes #53 - Probe and Drogue Docking ports fail to dock
 
 ---
 
