@@ -22,6 +22,35 @@ CC BY-ND 4.0 by zer0Kerbal
 | spacedock  | (https://spacedock.info/mod/3115)                                 |
 | ckan       | MIR                                                               |
 
+## Version 4.0.99.1-prerelease `<Спасибо Сампа>` edition
+
+* Released
+  * 13 May 2023
+  * for Kerbal Space Program 1.12.5
+  * by [sampa](https://github.com/Toa-Sampa) and [zer0Kerbal](https://github.com/zer0Kerbal)
+
+* 📌 Pinned
+  * Dependency
+    * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+
+### Change Summary 4.0.99.1
+
+* BUG
+  * Drogue and Probe not docking
+    * Have sat the three parts with [ModuleDockingNode] down and had *'the talk'* with them.
+    * (drogue) was set to True/True - now True/True
+    * (probe) was set to False/True - now True/False
+    * Спасибо, Сампа! (Spasibo, Sampa!) to [Sampa](https://github.com/Toa-Sampa)
+    * 
+
+### Changes 4.0.99.1
+
+* Issues
+  * closes #45 - Мир (MIR) 4.0.99.1-prerelease `<Thank you BobCat, DECQ, and Dragon01>` edition
+  * closes #46 - 4.0.99.1 Additional Tasks
+
+---
+
 ## Version 4.0.99.0-adoption `<Thank you BobCat, DECQ, and Dragon01>` edition
 
 * Released
@@ -35,7 +64,7 @@ CC BY-ND 4.0 by zer0Kerbal
   * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
 * fully localized
 * ghostparts 2.0
-* MIR core mass reduced.
+* MIR core mass reduced. (0.4968823529%)
 
 ### Changes 4.0.99.0
 
