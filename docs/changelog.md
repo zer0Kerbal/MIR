@@ -31,7 +31,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ### Change Summary 4.0.99.0
 
-* Dependancy
+* Dependency
   * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
 * fully localized
 * ghostparts 2.0
