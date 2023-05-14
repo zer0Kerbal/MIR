@@ -29,13 +29,13 @@
     * (drogue) was set to True/True - now True/True
     * (probe) was set to False/True - now True/False
     * Спасибо, Сампа! (Spasibo, Sampa!) to [Sampa](https://github.com/Toa-Sampa)
-    * 
 
 ### Changes 4.0.99.1
 
 * Issues
   * closes #45 - Мир (MIR) 4.0.99.1-prerelease `<Thank you BobCat, DECQ, and Dragon01>` edition
   * closes #46 - 4.0.99.1 Additional Tasks
+  * closes #53 - Probe and Drogue Docking ports fail to dock
 
 ---
 
