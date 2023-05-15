@@ -1,6 +1,6 @@
-# 1.2.0.3
+# 1.2.0.4
 # created: 02 Dec 2021
-# updated: 01 Jan 2023
+# updated: 15 May 2023
 # An action for filtering pull requests and issues from first-time contributors.
 # https://github.com/marketplace/actions/first-interaction
 
@@ -13,9 +13,9 @@ on: [pull_request, issues, issue_comment, discussion_comment, fork, gollum, work
 jobs:
   greeting:
     runs-on: ubuntu-latest
-    permissions:
-        issues: write
-        pull-requests: write
+    permissions: write-all
+        #issues: write
+        #pull-requests: write
     if: ${{ github.actor != 'dependabot[bot]' }}
     steps:
     # - uses: actions/first-interaction@latest
