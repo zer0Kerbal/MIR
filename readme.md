@@ -1,21 +1,20 @@
-<!-- readme.md v4.0.99.0
+<!-- readme.md v4.0.99.2
 MIR (Мир)
 created: 2014
-updated: 15 Apr 2023
+updated: 05 Jun 2023
 
-TEMPLATE: readme.md v1.7.2.1
+TEMPLATE: readme.md v1.7.4.0
 created: 17 Jul 2017
-updated: 15 Apr 2023
+updated: 29 May 2023
 
 THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
+# [Мир Space Station (MIR)][CURSFG:url]
 
 [![MIR (Мир)][SHD:mod]][CURSFG:url]  
 [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
 [![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![Pages][SHD:pgs]][pages]
 
-# [Мир Space Station (MIR)][MIR]
-
-The Soviet Space Station MIR for Kerbal Space Program.
+ Мир Space Station (MIR) for Kerbal Space Program.
 
 ## By [zer0Kerbal][zer0Kerbal] and [Sampa][sampa], originally by [BobCat][bobcat], [DECQ][decq] and [Dragon01][dragon01]
 
@@ -40,7 +39,7 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 ### Preamble by [Wikipedia](https://en.wikipedia.org/wiki/Mir)
 
-> ***Mir*** ([Russian](https://en.wikipedia.org/wiki/Russian_language): Мир, IPA: [[ˈmʲir\]](https://en.wikipedia.org/wiki/Help:IPA/Russian); lit. 'peace' or 'world') was a [space station](https://en.wikipedia.org/wiki/Space_station) that operated in [low Earth orbit](https://en.wikipedia.org/wiki/Low_Earth_orbit) from 1986 to 2001, operated by the [Soviet Union](https://en.wikipedia.org/wiki/Soviet_Union) and later by [Russia](https://en.wikipedia.org/wiki/Russia). *Mir* was the first modular space station and was assembled in orbit from 1986 to 1996. It had a greater mass than any previous [spacecraft](https://en.wikipedia.org/wiki/Spacecraft). At the time it was the largest [artificial satellite](https://en.wikipedia.org/wiki/Artificial_satellite) in orbit, succeeded by the [International Space Station](https://en.wikipedia.org/wiki/International_Space_Station) (ISS) after *Mir*'s [orbit decayed](https://en.wikipedia.org/wiki/Orbital_decay).
+> ***Mir*** ([Russian](https://en.wikipedia.org/wiki/Russian_language): Мир, IPA: [[ˈmʲir\](https://en.wikipedia.org/wiki/Help:IPA/Russian); lit. 'peace' or 'world') was a [space station](https://en.wikipedia.org/wiki/Space_station) that operated in [low Earth orbit](https://en.wikipedia.org/wiki/Low_Earth_orbit) from 1986 to 2001, operated by the [Soviet Union](https://en.wikipedia.org/wiki/Soviet_Union) and later by [Russia](https://en.wikipedia.org/wiki/Russia). *Mir* was the first modular space station and was assembled in orbit from 1986 to 1996. It had a greater mass than any previous [spacecraft](https://en.wikipedia.org/wiki/Spacecraft). At the time it was the largest [artificial satellite](https://en.wikipedia.org/wiki/Artificial_satellite) in orbit, succeeded by the [International Space Station](https://en.wikipedia.org/wiki/International_Space_Station) (ISS) after *Mir*'s [orbit decayed](https://en.wikipedia.org/wiki/Orbital_decay).
 
 ### See more
 
@@ -67,6 +66,8 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 ### Localization
 
 >* ![English][EN] English
+>* ![Spanish (Español)][ES] Spanish (Español) - Gracias [Fitiales](https://github/Fitiales)
+>* ![Russian (Русский)][RU] Russian (Русский) - Спасибо [evanisrael](https://github/evanisrael)
 >* ***your translation here***
 
 ### Installation Directions
@@ -304,6 +305,8 @@ Comment, click, like, share, up-vote, subscribe
 [lreadme]: https://github.com/zer0Kerbal/zer0Kerbal/blob/master/Localization/readme.md "Localization Readme"
 [qstart]: https://github.com/zer0Kerbal/zer0Kerbal/blob/master/Localization/quickstart.md "Quickstart"
 [EN]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/EN.png "English"
+[ES]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/ES.png "Español"
+[RU]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/RU.png "Русский"
 
 [curseforge]: https://www.curseforge.com/members/zer0kerbal/projects
 [reddit]: https://www.reddit.com/user/zer0Kerbal
