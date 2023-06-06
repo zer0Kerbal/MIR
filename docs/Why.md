@@ -6,12 +6,12 @@ tags: forty-two,42,6x7,6times7,6*7,why,why-not,page,kerbal,ksp,zer0Kerbal,zedK
 ---
 
 <!-- Why.md v1.1.0.1
-MIR (MIR)
+MIR (Мир)
 created: 01 Apr 2019
 updated: 
 -->
 
-# MIR (MIR)
+# MIR (Мир)
 
 [Home](/index.md)
 
