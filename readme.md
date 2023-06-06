@@ -80,7 +80,7 @@ Most recent releases only available via CurseForge/OverWolf Website/App
 
 * 📌 Pinned
   * Dependencies:
-  * [BobCat Industries (BOB)][BOB]
+  * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
   * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url]
 
 ### Recommends
@@ -100,7 +100,7 @@ Most recent releases only available via CurseForge/OverWolf Website/App
   * [JoolV](https://github.com/zer0Kerbal/JoolV)
   * [Nautilus](https://github.com/zer0Kerbal/Nautilus)
   * [HOME](https://github.com/zer0Kerbal/HOME)
-    * Rovers
+  * Rovers
     * [DEMV](https://github.com/zer0Kerbal/DEMV)
 
 ### Suggests
