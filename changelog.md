@@ -10,16 +10,75 @@
 | spacedock  | (https://spacedock.info/mod/3115)                                 |
 | ckan       | MIR                                                               |
 
+* 📌 Pinned
+  * Dependency
+    * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+
+## Version 4.0.99.2-prerelease `<Gracias Fitiales>` edition
+
+* Released
+  * 06 Jun 2023
+  * for Kerbal Space Program 1.12.5
+  * by [sampa](https://github.com/Toa-Sampa) and [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Change Summary 4.0.99.2
+
+* Спасибо, Сампа! (Spasibo, Sampa!) to [Sampa](https://github.com/Toa-Sampa)
+
+### Changes 4.0.99.2
+
+#### Parts 4.0.99.2
+
+* Adjust attachment nodes
+
+  * [mir-core] v4.0.99.1
+    * ModuleInventoryPart - added 3/180 (cramped)
+  * [mir-dockingmodule-1] v4.0.99.1
+  * [mir-tks-kristall-1] v4.0.99.1
+  * [mir-tks-kvant-2v] v4.0.99.1
+  * [mir-tks-priroda] v4.0.99.1
+  * [mir-tks-spektr] v4.0.99.1
+  * [mir-tks-tug] v4.0.99.1
+  * [mir-tks-zarya] v4.0.99.1
+
+
+#### Localization 4.0.99.2
+
+* Add
+  * Spanish (Español)
+    * [es-es.cfg] v1.0.0.0
+    * Gracias [Fitiales](https://github.com/Fitiales)
+* Update
+  * [es-es.cfg] v1.0.1.0
+  * add header, give credit
+
+#### Documentation 4.0.99.2
+
+* Update
+  * [readme.md] v4.0.99.2
+  * [Attributions.md] v1.0.8.0
+  * [LegalMumboJumbo.md] v1.3.0.0
+  * [Localizations.md] v1.0.8.0
+  * [ManualInstallation.md] v1.0.9.0
+  * [PartsCatalog.md] v1.0.5.0
+
+* Issues
+  * closes #51 - Мир (MIR) 4.0.99.2-prerelease `<Gracias Fitiales>` edition
+  * closes #52 - 4.0.99.2 Additional Tasks
+
+  * updates #58 - Mir Solar Panels not drawing any power
+  * closes #48 - Update RealismOverhaul patch
+  * closes #16 - Spanish (Español) <es-es.cfg>
+  * updates #12 - Localization - Master
+
+---
+
 ## Version 4.0.99.1-prerelease `<Спасибо Сампа>` edition
 
 * Released
   * 13 May 2023
   * for Kerbal Space Program 1.12.5
   * by [sampa](https://github.com/Toa-Sampa) and [zer0Kerbal](https://github.com/zer0Kerbal)
-
-* 📌 Pinned
-  * Dependency
-    * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
 
 ### Change Summary 4.0.99.1
 
@@ -260,7 +319,7 @@
 ## Version 1.5A
 
 * Add-on MIR separated by ENERGIA folder.
-* MIR has a different size and weight compared with the original work of Babcat, also when  two versions they will not interfere with each other.
+* MIR has a different size and weight compared with the original work of Bobcat, also when  two versions they will not interfere with each other.
 
 ---
 
