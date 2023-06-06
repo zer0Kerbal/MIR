@@ -6,7 +6,7 @@ tags: legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,zedK
 ---
 <!--
 LegalMumboJumbo.md v1.3.0.0
-MIR (MIR)
+MIR (Мир)
 created: 09 Aug 2022
 updated: 01 May 2023
 
@@ -17,7 +17,7 @@ updated: 14 Apr 2023 -->
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa-solid fa-file-contract fa-beat-fade fa-3x" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: #6495ED" ></i>
 
-## [MIR (MIR)][mod]
+## [MIR (Мир)][mod]
 
 [Home](./index.md)
 
@@ -66,4 +66,4 @@ updated: 14 Apr 2023 -->
 THIS FILE: CC BY-ND 4.0 by zer0Kerbal
   used with express permission from zer0Kerbal
 
-[mod]: https://www.curseforge.com/kerbal/ksp-mods/Mir "Mir (Mir)"
+[mod]: https://www.curseforge.com/kerbal/ksp-mods/Mir "MIR (Мир)"
