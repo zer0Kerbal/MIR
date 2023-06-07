@@ -35,6 +35,11 @@
 	},
 	"INSTALL_LOC" :
 	{
+		"NAME" :	  "Ships",
+		"DIRECTORY" : "Ships"
+	},
+	"INSTALL_LOC" :
+	{
 		"NAME" :	  "Subassemblies",
 		"DIRECTORY" : "Subassemblies"
 	}
