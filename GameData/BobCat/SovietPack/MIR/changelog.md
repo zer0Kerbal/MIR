@@ -23,33 +23,34 @@
 
 ### Change Summary 4.0.99.2
 
-* Спасибо, Сампа! (Spasibo, Sampa!) to [Sampa](https://github.com/Toa-Sampa)
+* Adjust attachment nodes
+* Add localization: Spanish (Español) - Gracias [Fitiales](https://github.com/Fitiales)
+* [BUG] Solar panels are animated, but not generating EC
+* update documentation
 
 ### Changes 4.0.99.2
 
 #### Parts 4.0.99.2
 
 * Adjust attachment nodes
-
-  * [mir-core] v4.0.99.1
+  * [mir-core] v4.0.99.2
     * ModuleInventoryPart - added 3/180 (cramped)
-  * [mir-dockingmodule-1] v4.0.99.1
-  * [mir-tks-kristall-1] v4.0.99.1
-  * [mir-tks-kvant-2v] v4.0.99.1
-  * [mir-tks-priroda] v4.0.99.1
-  * [mir-tks-spektr] v4.0.99.1
-  * [mir-tks-tug] v4.0.99.1
-  * [mir-tks-zarya] v4.0.99.1
-
+  * [mir-dockingmodule-1] v4.0.99.2
+  * [mir-tks-kristall-1] v4.0.99.2
+  * [mir-tks-kvant-2v] v4.0.99.2
+  * [mir-tks-priroda] v4.0.99.2
+  * [mir-tks-spektr] v4.0.99.2
+  * [mir-tks-tug] v4.0.99.2
+  * [mir-tks-zarya] v4.0.99.2
+  * thank you to [Sampa](https://github.com/Toa-Sampa)
 * mir-tks-tug
   * change [vesselType] from Ship to Probe
   * add [CrewCapacity] = 0
-
 * [BUG] Solar panels not generating
-  * [mir-kvant-solar.cfg]
-  * [mir-solar.cfg]
-  * [mir-solar-top.cfg]
-  * closes #58 - Mir Solar Panels not drawing any power
+  * [mir-kvant-solar.cfg] v4.0.99.2
+  * [mir-solar.cfg] v4.0.99.2
+  * [mir-solar-top.cfg] v4.0.99.2
+  * updates #58 - Mir Solar Panels not drawing any power
 
 #### Localization 4.0.99.2
 
