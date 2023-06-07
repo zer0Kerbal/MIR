@@ -4,19 +4,21 @@ title: Manual Installation
 description: the flat-pack Kiea instructions, written in Kerbalese, unusally present
 tags: installation,directions,page,kerbal,ksp,zer0Kerbal,zedK
 ---
-
-<!-- ManualInstallation.md v1.1.8.1
-MIR (MIR)
+<!-- ManualInstallation.md v1.0.9.0
+MIR (Мир)
 created: 01 Oct 2019
-updated: 29 Jul 2022 -->
+updated: 05 Jun 2023
 
-<!-- based upon work by Lisias -->
+TEMPLATE: ManualInstallation.md v1.1.9.1
+created: 01 Feb 2022
+updated: 26 Apr 2023
 
-# MIR (MIR)
+based upon work by Lisias -->
+## [MIR (Мир)][mod]
 
 [Home](./index.md)
 
-The Soviet Space Station MIR for Kerbal Space Program.
+The Soviet Space Station Мир (MIR) for Kerbal Space Program.
 
 ## Installation Instructions
 
@@ -29,50 +31,58 @@ You should be all good! (check for latest version on CurseForge)
 To install, place the `MIR` folder inside your Kerbal Space Program's GameData folder:
 
 * **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**
-  * Delete `<KSP_ROOT>/GameData/MIR`
-* Extract the package's `MIR/` folder into your KSP's GameData folder as follows:
-  * `<PACKAGE>/MIR` --> `<KSP_ROOT>/GameData`
+  * Delete `<KSP_ROOT>/GameData/BobCat/SovietPack/MIR`
+* Extract the package's `BobCat/` folder into your KSP's GameData folder as follows:
+  * `<PACKAGE>/BobCat` --> `<KSP_ROOT>/GameData`
     * Overwrite any preexisting folder/file(s).
-  * you should end up with `<KSP_ROOT>/GameData/MIR`
+  * you should end up with `<KSP_ROOT>/GameData/BobCat/SovietPack/MIR`
 
 ### If Downloaded from SpaceDock / GitHub / other
 
 To install, place the `GameData` folder inside your Kerbal Space Program folder:
 
 * **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**
-  * Delete `<KSP_ROOT>/GameData/MIR`
+  * Delete `<KSP_ROOT>/GameData/BobCat/SovietPack/MIR`
 * Extract the package's `GameData` folder into your KSP's root folder as follows:
   * `<PACKAGE>/GameData` --> `<KSP_ROOT>`
     * Overwrite any preexisting file.
-  * you should end up with `<KSP_ROOT>/GameData/MIR`
+  * you should end up with `<KSP_ROOT>/GameData/BobCat/SovietPack/MIR`
 
 ## The following file layout must be present after installation
 
 ```markdown
 <KSP_ROOT>
   + [GameData]
-    + [MIR]
+    + [BobCat]
       + [Agencies]
-        ...
-      + [Compatibility]
-        ...
-      + [Config]
-        ...
-      + [Contracts]
         ...
       + [Flags]
         ...
       + [Localization]
         ...
-      + [Parts]
-        ...
+      + [SovietPack]
+        + [MIR]
+          + [Assets]
+            ...
+          + [Compatibility]
+            ...
+          + [Config]
+            ...
+          + [Localization]
+            ...
+          + [Parts]
+            ...
+          + [Props]
+            ...
+          + [Spaces]
+            ...
+        ManualInstallation.htm
       * #.#.#.#.htm
       * Attributions.htm
+      * CC-BY-ND-4.0+ARR.txt
       * changelog.md
-      * CC-BY-ND-4.0.txt
-        ManualInstallation.htm
-      * readme.htm
       * MIR.version
+      * readme.htm
     ...
     * ModuleManager.ConfigCache
   * KSP.log
@@ -81,4 +91,9 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
 
 ### Dependencies
 
-* none
+* [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+
+THIS FILE: CC BY-ND 4.0 by zer0Kerbal
+  used with express permission from zer0Kerbal
+
+[mod]: https://www.curseforge.com/kerbal/ksp-mods/Mir "MIR (Мир)"

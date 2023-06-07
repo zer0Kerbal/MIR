@@ -1,0 +1,6681 @@
+ship = MIR station
+version = 0.22.0
+description = MIR space station¨
+type = VAB
+PART
+{
+	part = Mir Core Module_4294361780
+	partName = Part
+	pos = -6.050949E-05,20.44296,3.451372E-06
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Docking Port Drogue_4294358446
+	link = Mir Docking Port Drogue_4294358320
+	link = Mir Docking Port Drogue_4294358192
+	link = Mir Docking Port Drogue_4294358066
+	link = Mir Docking Port Drogue_4294357940
+	link = Mir Docking Port Drogue_4294357814
+	link = Mir RCS Thruster Block_4294356078
+	link = Mir RCS Thruster Block_4294355836
+	link = Mir RCS Thruster Block_4294355530
+	link = Mir RCS Thruster Block_4294354084
+	link = Mir Solar Panel_4294348788
+	link = Mir Solar Panel_4294347784
+	link = Mir Core Top Solar Panel_4294347104
+	link = Buran Manipulator_4294241542
+	link = Buran Manipulator_4294236584
+	attN = left,Mir Docking Port Drogue_4294357940
+	attN = right,Mir Docking Port Drogue_4294358066
+	attN = front,Mir Docking Port Drogue_4294358320
+	attN = rear,Mir Docking Port Drogue_4294358192
+	attN = top,Mir Docking Port Drogue_4294358446
+	attN = bottom,Mir Docking Port Drogue_4294357814
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = 
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSAS
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+			MakeReference
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control From Here
+				guiName = Control From Here
+				category = Control From Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RenameVessel
+			{
+				active = True
+				guiActive = True
+				guiIcon = Rename Vessel
+				guiName = Rename Vessel
+				category = Rename Vessel
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle
+				guiName = Open Hatch
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle
+				guiName = Open Ant
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleScienceExperiment
+		isEnabled = True
+		Deployed = False
+		EVENTS
+		{
+			DeployExperiment
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ReviewDataEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Review Data
+				guiName = Review Data
+				category = Review Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ResetExperiment
+			{
+				active = True
+				guiActive = True
+				guiIcon = Reset
+				guiName = Reset
+				category = Reset
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ResetExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiIcon = Reset
+				guiName = Reset
+				category = Reset
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DeployAction
+			{
+				actionGroup = None
+			}
+			ResetAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleScienceContainer
+		isEnabled = True
+		EVENTS
+		{
+			StoreDataExternalEvent
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = Store Experiments
+				category = 
+				guiActiveUnfocused = True
+				unfocusedRange = 6
+				externalToEVAOnly = True
+			}
+			ReviewDataEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Review Data
+				guiName = Review Stored Data (0)
+				category = Review Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		EVENTS
+		{
+			StartTransmission
+			{
+				active = True
+				guiActive = True
+				guiIcon = Transmit Data
+				guiName = Transmit Data
+				category = Transmit Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			StopTransmission
+			{
+				active = False
+				guiActive = True
+				guiIcon = Stop Transmitting
+				guiName = Stop Transmitting
+				category = Stop Transmitting
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Surfaced
+		{
+		}
+		Flew
+		{
+		}
+		FlewBy
+		{
+		}
+		Orbited
+		{
+		}
+		SubOrbited
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Drogue_4294358446
+	partName = Part
+	pos = -6.050949E-05,24.95871,3.451372E-06
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	attN = bottom,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Drogue_4294358320
+	partName = Part
+	pos = -6.050949E-05,24.24296,0.7157534
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Docking Port Probe_4294291922
+	attN = top,Mir Docking Port Probe_4294291922
+	attN = bottom,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Drogue_4294358192
+	partName = Part
+	pos = -6.050949E-05,24.24296,-0.7157465
+	rot = 0.7071068,0,0,-0.7071068
+	attRot = 0.7071067,0,0,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Docking Port Probe_4294306402
+	attN = top,Mir Docking Port Probe_4294306402
+	attN = bottom,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Drogue_4294358066
+	partName = Part
+	pos = 0.7156895,24.24296,3.451372E-06
+	rot = 0.5,0.5,0.5,-0.5
+	attRot = 0.4999999,0.4999999,0.4999999,-0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Docking Port Probe_4294257076
+	attN = top,Mir Docking Port Probe_4294257076
+	attN = bottom,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Drogue_4294357940
+	partName = Part
+	pos = -0.7158105,24.24296,3.451372E-06
+	rot = -0.5,0.5,0.5,0.5
+	attRot = -0.4999999,0.4999999,0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Docking Port Probe_4294268228
+	attN = top,Mir Docking Port Probe_4294268228
+	attN = bottom,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Drogue_4294357814
+	partName = Part
+	pos = -6.050949E-05,16.48721,3.451372E-06
+	rot = 0,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Docking Port Probe_4294344436
+	attN = top,Mir Docking Port Probe_4294344436
+	attN = bottom,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294356078
+	partName = Part
+	pos = -0.9527791,22.8053,3.508158E-06
+	rot = 0,0.7071068,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294355836
+	srfN = srfAttach,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294355836
+	partName = Part
+	pos = 0.9526581,22.8053,3.311296E-06
+	rot = 0,-0.7071069,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294356078
+	srfN = srfAttach,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294355530
+	partName = Part
+	pos = -1.311593,16.82541,3.527877E-06
+	rot = -0.7071068,0,0.7071068,0
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294354084
+	srfN = srfAttach,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294354084
+	partName = Part
+	pos = 1.311472,16.82541,3.26021E-06
+	rot = 0.7071069,0,0.7071068,0
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294355530
+	srfN = srfAttach,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir Solar Panel_4294348788
+	partName = Part
+	pos = -0.9692562,21.70206,3.509141E-06
+	rot = 0,0,0,-1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir Solar Panel_4294347784
+	srfN = srfAttach,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir Solar Panel_4294347784
+	partName = Part
+	pos = 0.9691352,21.70206,3.308874E-06
+	rot = 0,-1,0,4.371139E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir Solar Panel_4294348788
+	srfN = srfAttach,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir Core Top Solar Panel_4294347104
+	partName = Part
+	pos = -6.05987E-05,21.70256,-0.9659472
+	rot = 0.5,0.5,-0.5000001,-0.5000001
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab
+				category = Grab
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Probe_4294344436
+	partName = Part
+	pos = -6.050949E-05,16.26621,3.451372E-06
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Kvant-1_4294341402
+	attN = top,Mir Docking Port Drogue_4294357814
+	attN = bottom,Kvant-1_4294341402
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Kvant-1_4294341402
+	partName = Part
+	pos = -6.050949E-05,14.33546,3.451372E-06
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Docking Port Drogue_4294341060
+	link = Mir RCS Thruster Block_4294338672
+	link = Mir RCS Thruster Block_4294338408
+	link = Kvant-1 Solar Panel_4294332852
+	link = Kvant-1 Solar Panel_4294332566
+	link = trussPiece3x_4294328272
+	attN = top,Mir Docking Port Probe_4294344436
+	attN = bottom,Mir Docking Port Drogue_4294341060
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = 
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSAS
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+			MakeReference
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control From Here
+				guiName = Control From Here
+				category = Control From Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RenameVessel
+			{
+				active = True
+				guiActive = True
+				guiIcon = Rename Vessel
+				guiName = Rename Vessel
+				category = Rename Vessel
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KASModuleContainer
+		isEnabled = True
+		EVENTS
+		{
+			ContextMenuOpenContainer
+			{
+				active = True
+				guiActive = True
+				guiIcon = Open container
+				guiName = Open container
+				category = Open container
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle
+				guiName = Open Ant
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleScienceExperiment
+		isEnabled = True
+		Deployed = False
+		EVENTS
+		{
+			DeployExperiment
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ReviewDataEvent
+			{
+				active = True
+				guiActive = True
+				guiIcon = Review Data
+				guiName = Review Data
+				category = Review Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ResetExperiment
+			{
+				active = True
+				guiActive = True
+				guiIcon = Reset
+				guiName = Reset
+				category = Reset
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ResetExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiIcon = Reset
+				guiName = Reset
+				category = Reset
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DeployAction
+			{
+				actionGroup = None
+			}
+			ResetAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Surfaced
+		{
+		}
+		Flew
+		{
+		}
+		FlewBy
+		{
+		}
+		Orbited
+		{
+		}
+		SubOrbited
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Drogue_4294341060
+	partName = Part
+	pos = -6.050949E-05,13.05471,3.451372E-06
+	rot = 1,0,0,0
+	attRot = 0.9999999,0,0,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	attN = bottom,Kvant-1_4294341402
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294338672
+	partName = Part
+	pos = -1.253646,14.20322,3.524423E-06
+	rot = -0.7071068,0,0.7071068,0
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294338408
+	srfN = srfAttach,Kvant-1_4294341402
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294338408
+	partName = Part
+	pos = 1.253525,14.20322,3.26873E-06
+	rot = 0.7071069,0,0.7071068,0
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294338672
+	srfN = srfAttach,Kvant-1_4294341402
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Kvant-1 Solar Panel_4294332852
+	partName = Part
+	pos = -1.146407,15.03023,3.526852E-06
+	rot = -0.5,0.5,-0.5,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Kvant-1 Solar Panel_4294332566
+	srfN = srfAttach,Kvant-1_4294341402
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab
+				category = Grab
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Kvant-1 Solar Panel_4294332566
+	partName = Part
+	pos = 1.146286,15.03023,3.275675E-06
+	rot = -0.5,-0.5000001,0.5000001,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Kvant-1 Solar Panel_4294332852
+	srfN = srfAttach,Kvant-1_4294341402
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab
+				category = Grab
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = trussPiece3x_4294328272
+	partName = Part
+	pos = -6.074909E-05,14.51404,-2.740762
+	rot = -3.090862E-08,0.7071068,-0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = trussPiece3x_4294327618
+	srfN = srfAttach,Kvant-1_4294341402
+	attN = top,trussPiece3x_4294327618
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4294327618
+	partName = Part
+	pos = -6.087806E-05,14.51404,-5.69124
+	rot = 0.7071068,-3.997497E-15,3.997497E-15,0.7071068
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = trussPiece3x_4294325498
+	link = mediumDishAntenna_4294321434
+	srfN = srfAttach,Kvant-1_4294341402
+	attN = bottom,trussPiece3x_4294325498
+	attN = top,trussPiece3x_4294328272
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4294325498
+	partName = Part
+	pos = -6.087806E-05,14.51403,-8.641717
+	rot = 0.7071068,1.0268E-15,-1.0268E-15,0.7071068
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = commDish_4294322878
+	link = Mir RCS Thruster Block_4294314674
+	link = Mir RCS Thruster Block_4294314384
+	link = Mir RCS Thruster Block_4294314078
+	link = Mir RCS Thruster Block_4294313358
+	srfN = srfAttach,Kvant-1_4294341402
+	attN = top,trussPiece3x_4294327618
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = commDish_4294322878
+	partName = Part
+	pos = -0.06265576,14.8386,-8.750135
+	rot = 1.053671E-07,-0.7071068,-6.322028E-08,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,trussPiece3x_4294325498
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle
+				guiName = Extend
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		EVENTS
+		{
+			StartTransmission
+			{
+				active = True
+				guiActive = True
+				guiIcon = Transmit Data
+				guiName = Transmit Data
+				category = Transmit Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			StopTransmission
+			{
+				active = False
+				guiActive = True
+				guiIcon = Stop Transmitting
+				guiName = Stop Transmitting
+				category = Stop Transmitting
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = False
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab
+				category = Grab
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = mediumDishAntenna_4294321434
+	partName = Part
+	pos = -6.078169E-05,14.16447,-5.165105
+	rot = -1,-8.74228E-08,0,3.774758E-15
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,trussPiece3x_4294327618
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle
+				guiName = Extend
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = False
+				guiIcon = Toggle
+				guiName = Blink Lights
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		EVENTS
+		{
+			StartTransmission
+			{
+				active = True
+				guiActive = True
+				guiIcon = Transmit Data
+				guiName = Transmit Data
+				category = Transmit Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			StopTransmission
+			{
+				active = False
+				guiActive = True
+				guiIcon = Stop Transmitting
+				guiName = Stop Transmitting
+				category = Stop Transmitting
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294314674
+	partName = Part
+	pos = 0.3105081,14.50132,-9.837313
+	rot = 0.5,0.5000001,0.5000001,0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,trussPiece3x_4294325498
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294314384
+	partName = Part
+	pos = -0.3106299,14.48069,-9.858606
+	rot = -0.5000001,0.5,0.5,-0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,trussPiece3x_4294325498
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294314078
+	partName = Part
+	pos = -0.01772429,14.25534,-10.00272
+	rot = 1,0,0,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,trussPiece3x_4294325498
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294313358
+	partName = Part
+	pos = -0.006311499,14.60111,-10.00272
+	rot = 0,1,0,0
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,trussPiece3x_4294325498
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Probe_4294306402
+	partName = Part
+	pos = -6.050949E-05,24.24296,-0.9367465
+	rot = 0,0.7071068,0.7071068,0
+	attRot = 0,0.7071067,0.7071067,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Kvant-2_4294305626
+	attN = top,Mir Docking Port Drogue_4294358192
+	attN = bottom,Mir Kvant-2_4294305626
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Kvant-2_4294305626
+	partName = Part
+	pos = -6.050949E-05,24.24296,-4.217496
+	rot = 0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir RCS Thruster Block_4294304006
+	link = Mir RCS Thruster Block_4294301904
+	link = Mir RCS Thruster Block_4294301278
+	link = Mir RCS Thruster Block_4294301036
+	link = Mir Solar Panel_4294295806
+	link = Mir Solar Panel_4294295466
+	attN = bottom,Mir Docking Port Probe_4294306402
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = 
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSAS
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+			MakeReference
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control From Here
+				guiName = Control From Here
+				category = Control From Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RenameVessel
+			{
+				active = True
+				guiActive = True
+				guiIcon = Rename Vessel
+				guiName = Rename Vessel
+				category = Rename Vessel
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle
+				guiName = Deploy
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Surfaced
+		{
+		}
+		Flew
+		{
+		}
+		FlewBy
+		{
+		}
+		Orbited
+		{
+		}
+		SubOrbited
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294304006
+	partName = Part
+	pos = -1.175914,24.24296,-3.053344
+	rot = -0.6031164,0.6031164,0.3691216,-0.3691216
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294301904
+	srfN = srfAttach,Mir Kvant-2_4294305626
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294301904
+	partName = Part
+	pos = 1.175793,24.24296,-3.053344
+	rot = 0.6031165,0.6031163,0.3691215,0.3691216
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294304006
+	srfN = srfAttach,Mir Kvant-2_4294305626
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294301278
+	partName = Part
+	pos = -1.081696,24.24296,-5.482553
+	rot = -0.5000001,-0.5000001,0.5000001,0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294301036
+	srfN = srfAttach,Mir Kvant-2_4294305626
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294301036
+	partName = Part
+	pos = 1.081575,24.24296,-5.482553
+	rot = -0.5,0.5000001,-0.5000001,0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294301278
+	srfN = srfAttach,Mir Kvant-2_4294305626
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir Solar Panel_4294295806
+	partName = Part
+	pos = -1.072929,24.24296,-7.065974
+	rot = -0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir Solar Panel_4294295466
+	srfN = srfAttach,Mir Kvant-2_4294305626
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir Solar Panel_4294295466
+	partName = Part
+	pos = 1.072808,24.24296,-7.065974
+	rot = 3.090862E-08,0.7071068,-0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir Solar Panel_4294295806
+	srfN = srfAttach,Mir Kvant-2_4294305626
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Probe_4294291922
+	partName = Part
+	pos = -6.050949E-05,24.24296,0.9367535
+	rot = 0.7071068,0,0,-0.7071068
+	attRot = 0.7071067,0,0,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Spektr_4294288316
+	attN = top,Mir Docking Port Drogue_4294358320
+	attN = bottom,Mir Spektr_4294288316
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Spektr_4294288316
+	partName = Part
+	pos = -6.050949E-05,24.24296,4.217504
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Solar Panel_4294285012
+	link = Mir Solar Panel_4294284590
+	link = Mir Solar Panel_4294284252
+	link = Mir Solar Panel_4294283922
+	link = Mir RCS Thruster Block_4294282180
+	link = Mir RCS Thruster Block_4294276182
+	link = Mir RCS Thruster Block_4294275872
+	link = Mir RCS Thruster Block_4294275570
+	attN = bottom,Mir Docking Port Probe_4294291922
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+			MakeReference
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control From Here
+				guiName = Control From Here
+				category = Control From Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RenameVessel
+			{
+				active = True
+				guiActive = True
+				guiIcon = Rename Vessel
+				guiName = Rename Vessel
+				category = Rename Vessel
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = 
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSAS
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Surfaced
+		{
+		}
+		Flew
+		{
+		}
+		FlewBy
+		{
+		}
+		Orbited
+		{
+		}
+		SubOrbited
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Solar Panel_4294285012
+	partName = Part
+	pos = 1.051988,24.24296,6.498328
+	rot = 0,0.7071068,0.7071068,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir Solar Panel_4294284590
+	srfN = srfAttach,Mir Spektr_4294288316
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir Solar Panel_4294284590
+	partName = Part
+	pos = -1.052109,24.24296,6.498328
+	rot = -0.7071068,-3.090862E-08,-3.090862E-08,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir Solar Panel_4294285012
+	srfN = srfAttach,Mir Spektr_4294288316
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir Solar Panel_4294284252
+	partName = Part
+	pos = 0.6510525,24.24296,9.947165
+	rot = -0.05254399,0.7051519,0.7051519,0.05254399
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir Solar Panel_4294283922
+	srfN = srfAttach,Mir Spektr_4294288316
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir Solar Panel_4294283922
+	partName = Part
+	pos = -0.6511735,24.24296,9.947165
+	rot = -0.7051519,-0.05254402,0.05254396,-0.7051519
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir Solar Panel_4294284252
+	srfN = srfAttach,Mir Spektr_4294288316
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294282180
+	partName = Part
+	pos = -1.084982,24.24296,5.443282
+	rot = -0.5000001,0.5000001,0.5000001,-0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294276182
+	srfN = srfAttach,Mir Spektr_4294288316
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294276182
+	partName = Part
+	pos = 1.084861,24.24296,5.443282
+	rot = -0.5,-0.5000001,-0.5000001,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294282180
+	srfN = srfAttach,Mir Spektr_4294288316
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294275872
+	partName = Part
+	pos = -1.192405,24.24296,3.021815
+	rot = 0.3691216,0.3691216,-0.6031164,-0.6031164
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294275570
+	srfN = srfAttach,Mir Spektr_4294288316
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294275570
+	partName = Part
+	pos = 1.192284,24.24296,3.021815
+	rot = -0.3691216,0.3691215,-0.6031163,0.6031165
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294275872
+	srfN = srfAttach,Mir Spektr_4294288316
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Probe_4294268228
+	partName = Part
+	pos = -0.9368104,24.24296,3.451372E-06
+	rot = 0.5,0.5,-0.5,0.5
+	attRot = 0.4999999,0.4999999,-0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Priroda_4294266974
+	attN = top,Mir Docking Port Drogue_4294357940
+	attN = bottom,Mir Priroda_4294266974
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Priroda_4294266974
+	partName = Part
+	pos = -4.21756,24.24296,3.451372E-06
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir RCS Thruster Block_4294265402
+	link = Mir RCS Thruster Block_4294265160
+	link = Mir RCS Thruster Block_4294264848
+	link = Mir RCS Thruster Block_4294264546
+	attN = bottom,Mir Docking Port Probe_4294268228
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = 
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSAS
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+			MakeReference
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control From Here
+				guiName = Control From Here
+				category = Control From Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RenameVessel
+			{
+				active = True
+				guiActive = True
+				guiIcon = Rename Vessel
+				guiName = Rename Vessel
+				category = Rename Vessel
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		status = Locked
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle
+				guiName = Open Antenna
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Surfaced
+		{
+		}
+		Flew
+		{
+		}
+		FlewBy
+		{
+		}
+		Orbited
+		{
+		}
+		SubOrbited
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294265402
+	partName = Part
+	pos = -5.443722,23.16136,3.129031E-06
+	rot = 0.5000001,-0.5000001,0.5000001,0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294265160
+	srfN = srfAttach,Mir Priroda_4294266974
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294265160
+	partName = Part
+	pos = -5.443722,25.32455,3.679157E-06
+	rot = -0.5000001,0.5000001,0.5,0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294265402
+	srfN = srfAttach,Mir Priroda_4294266974
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294264848
+	partName = Part
+	pos = -3.011444,23.04582,3.090072E-06
+	rot = -0.6031163,-0.3691216,0.6031164,-0.3691216
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294264546
+	srfN = srfAttach,Mir Priroda_4294266974
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294264546
+	partName = Part
+	pos = -3.011444,25.4401,3.708015E-06
+	rot = 0.3691216,0.6031165,0.3691215,-0.6031163
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294264848
+	srfN = srfAttach,Mir Priroda_4294266974
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Probe_4294257076
+	partName = Part
+	pos = 0.9366894,24.24296,3.451372E-06
+	rot = 0,0,0.7071068,0.7071068
+	attRot = 0,0,0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Kristall_4294255668
+	attN = top,Mir Docking Port Drogue_4294358066
+	attN = bottom,Mir Kristall_4294255668
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Kristall_4294255668
+	partName = Part
+	pos = 4.217439,24.24296,3.451372E-06
+	rot = -0.7071068,-0.7071068,0,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mir Docking Port Drogue_4294252254
+	link = Mir Docking Port Drogue_4294252110
+	link = Mir RCS Thruster Block_4294245766
+	link = Mir RCS Thruster Block_4294245524
+	link = Mir RCS Thruster Block_4294245210
+	link = Mir RCS Thruster Block_4294244908
+	attN = top,Mir Docking Port Drogue_4294252254
+	attN = rear,Mir Docking Port Drogue_4294252110
+	attN = bottom,Mir Docking Port Probe_4294257076
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = 
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSAS
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+			MakeReference
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control From Here
+				guiName = Control From Here
+				category = Control From Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RenameVessel
+			{
+				active = True
+				guiActive = True
+				guiIcon = Rename Vessel
+				guiName = Rename Vessel
+				category = Rename Vessel
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		flameout = False
+		staged = False
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Surfaced
+		{
+		}
+		Flew
+		{
+		}
+		FlewBy
+		{
+		}
+		Orbited
+		{
+		}
+		SubOrbited
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Drogue_4294252254
+	partName = Part
+	pos = 10.09819,24.24296,3.451372E-06
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0.9999999,0,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	attN = bottom,Mir Kristall_4294255668
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir Docking Port Drogue_4294252110
+	partName = Part
+	pos = 9.317439,24.24296,-0.7807465
+	rot = -0.5000001,0.5000001,-0.5000001,0.5000001
+	attRot = 0,0.7071067,0.7071067,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	attN = bottom,Mir Kristall_4294255668
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = LazorSystemDockingCamera
+		isEnabled = True
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Docking Camera
+				guiName = Activate Docking Camera
+				category = Activate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Docking Camera
+				guiName = Deactivate Docking Camera
+				category = Deactivate Docking Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294245766
+	partName = Part
+	pos = 5.527725,25.33139,3.256745E-06
+	rot = -0.5000001,-0.5000001,-0.5000001,0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294245524
+	srfN = srfAttach,Mir Kristall_4294255668
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294245524
+	partName = Part
+	pos = 5.527725,23.15452,3.550846E-06
+	rot = 0.5000001,0.5000001,-0.5,0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294245766
+	srfN = srfAttach,Mir Kristall_4294255668
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294245210
+	partName = Part
+	pos = 2.985151,25.45385,3.238954E-06
+	rot = 0.3691216,-0.6031164,-0.3691216,-0.6031164
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294244908
+	srfN = srfAttach,Mir Kristall_4294255668
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Mir RCS Thruster Block_4294244908
+	partName = Part
+	pos = 2.985151,23.03206,3.55793E-06
+	rot = -0.6031165,0.3691216,-0.6031163,-0.3691215
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = Mir RCS Thruster Block_4294245210
+	srfN = srfAttach,Mir Kristall_4294255668
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = Buran Manipulator_4294241542
+	partName = PartRoboticArmBuran
+	pos = 1.339936,17.26433,3.528448E-06
+	rot = 0.3265056,0.6272114,-0.3265056,-0.6272114
+	attRot = 0,0,-0.4617486,0.8870108
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = LazorRoboticArmBuran
+		isEnabled = True
+		tBase = (0, 0, 0)
+		tShoulder = (0, 0, 0)
+		tShoulderLong = (0, 0, 0)
+		tElbowLong = (0, 0, 0)
+		tArmWrist = (0, 0, 0)
+		tArmWristLong = (0, 0, 0)
+		cameraOn = False
+		windowPosition = (0, 0)
+		isMagnetized = False
+		isMainConnection = False
+		partRef = 
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Camera
+				guiName = Activate Camera
+				category = Activate Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Camera
+				guiName = Deactivate Camera
+				category = Deactivate Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = Buran Manipulator_4294236584
+	partName = PartRoboticArmBuran
+	pos = -1.343174,17.24609,0.001283213
+	rot = -0.3302207,0.6571941,-0.3221689,0.5960347
+	attRot = -0.00569347,-0.04324622,-0.4613091,-0.8861666
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,Mir Core Module_4294361780
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = LazorRoboticArmBuran
+		isEnabled = True
+		tBase = (0, 0, 0)
+		tShoulder = (0, 0, 0)
+		tShoulderLong = (0, 0, 0)
+		tElbowLong = (0, 0, 0)
+		tArmWrist = (0, 0, 0)
+		tArmWristLong = (0, 0, 0)
+		cameraOn = False
+		windowPosition = (0, 0)
+		isMagnetized = False
+		isMainConnection = False
+		partRef = 
+		EVENTS
+		{
+			ActivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Camera
+				guiName = Activate Camera
+				category = Activate Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeactivateLazorCamera
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deactivate Camera
+				guiName = Deactivate Camera
+				category = Deactivate Camera
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
