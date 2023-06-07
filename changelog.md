@@ -41,6 +41,15 @@
   * [mir-tks-tug] v4.0.99.1
   * [mir-tks-zarya] v4.0.99.1
 
+* mir-tks-tug
+  * change [vesselType] from Ship to Probe
+  * add [CrewCapacity] = 0
+
+* [BUG] Solar panels not generating
+  * [mir-kvant-solar.cfg]
+  * [mir-solar.cfg]
+  * [mir-solar-top.cfg]
+  * closes #58 - Mir Solar Panels not drawing any power
 
 #### Localization 4.0.99.2
 
@@ -51,6 +60,8 @@
 * Update
   * [es-es.cfg] v1.0.1.0
   * add header, give credit
+* closes #16 - Spanish (Español) <es-es.cfg>
+* updates #12 - Localization - Master
 
 #### Documentation 4.0.99.2
 
@@ -65,11 +76,7 @@
 * Issues
   * closes #51 - Мир (MIR) 4.0.99.2-prerelease `<Gracias Fitiales>` edition
   * closes #52 - 4.0.99.2 Additional Tasks
-
-  * updates #58 - Mir Solar Panels not drawing any power
   * closes #48 - Update RealismOverhaul patch
-  * closes #16 - Spanish (Español) <es-es.cfg>
-  * updates #12 - Localization - Master
 
 ---
 
