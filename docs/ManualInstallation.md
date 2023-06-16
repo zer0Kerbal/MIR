@@ -4,10 +4,10 @@ title: Manual Installation
 description: the flat-pack Kiea instructions, written in Kerbalese, unusally present
 tags: installation,directions,page,kerbal,ksp,zer0Kerbal,zedK
 ---
-<!-- ManualInstallation.md v1.0.9.0
+<!-- ManualInstallation.md v1.0.3.0
 MIR (Мир)
 created: 01 Oct 2019
-updated: 05 Jun 2023
+updated: 16 Jun 2023
 
 TEMPLATE: ManualInstallation.md v1.1.9.1
 created: 01 Feb 2022
@@ -18,7 +18,7 @@ based upon work by Lisias -->
 
 [Home](./index.md)
 
-The Soviet Space Station Мир (MIR) for Kerbal Space Program.
+Мир (MIR) Space Station for Kerbal Space Program.
 
 ## Installation Instructions
 
@@ -76,11 +76,11 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
             ...
           + [Spaces]
             ...
-        ManualInstallation.htm
       * #.#.#.#.htm
       * Attributions.htm
       * CC-BY-ND-4.0+ARR.txt
       * changelog.md
+      * ManualInstallation.htm
       * MIR.version
       * readme.htm
     ...
