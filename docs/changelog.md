@@ -14,7 +14,7 @@ CC BY-ND 4.0 by zer0Kerbal
   
 | modName    | MIR (Мир)                                                         |
 | ---------- | ----------------------------------------------------------------- |
-| license    | CC-BY-ND-4.0                                                      |
+| license    | CC-BY-ND-4.0+ARR                                                  |
 | author     | BobCat, DECQ, Dragon01, Sampa and zer0Kerbal                      |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209731-*/) |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/MIR)                    |
@@ -25,6 +25,107 @@ CC BY-ND 4.0 by zer0Kerbal
 * 📌 Pinned
   * Dependency
     * [BobCat Industries (BOB)](https://www.curseforge.com/kerbal/ksp-mods/BobCatInd)
+
+## Version 4.0.99.3-prerelease `<Спасибо evanisrael>` edition
+
+* Released
+  * 16 Jun 2023
+  * for Kerbal Space Program 1.12.5
+  * by [sampa](https://github.com/Toa-Sampa) and [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Change Summary 4.0.99.3
+
+* Add
+  * Мир (MIR) Assembly guide (pages)
+  * Snacks compatibility (rough guess at amounts)
+* Localize
+  * ![Russian (Русский)](https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/RU.png) Russian (Русский)
+  * Спасибо [evanisrael](https://github/evanisrael)
+* Corrected part name (added to ghostparts)
+  * [mir-core] was [мir-core] - notice the Cyrillic `м` snuck in
+* Kerbalnauts did precarious day long (6 hour) spacewalk to repair all three types of solar panels. Snacks! for everyone!
+* scolded several hiding textures and put their name tags back on
+
+#### Assets 4.0.99.3
+
+* KSP reporting missing textures
+  * scolded the hiding textures and put their name tags back on
+  * [TKS-m001_NRM] was hiding as [TKS-m001]
+  * [TKS-m003_NRM] was hiding as [TKS-m003]
+* updates #62 - [BUG][LOG] missing NRM textures
+
+#### Parts 4.0.99.3
+
+* Corrected part name
+  * [mir-core] was [мir-core] - notice that the Cyrillic `м` snuck in
+  * added [мir-core] to ghostparts
+* Solar Panels not generating ElectricCharge when open
+  * Kerbalnauts did precarious day long (6 hour) spacewalk to repair all three types of solar panels. Snacks! for everyone!
+  * [mir-solar-top.cfg]
+    * attachment nodes
+  * [mir-kvant-solar.cfg]
+    * attachment nodes
+  * [mir-solar.cfg]
+    * attachment nodes
+* closes #69 - [BUG] Solar Panels not generating ElectricCharge
+* closes #70 - [BUG] mir-core not showing when searching 'mir' in editor
+
+#### Compatibility 4.0.99.3
+
+* ADD
+  * NEW: Snacks compatibility
+  * resource amounts are rough guess at amounts - kindly submit changes via GitHub
+  * [Snacks.cfg] v1.0.0.0
+    * 500 snacks
+      * Mir-core
+    * 150 snacks
+      * mir-kvant-1v
+      * mir-tks-kristall-1
+      * mir-tks-kvant-2v
+      * mir-tks-spektr
+      * mir-tks-tug
+      * mir-tks-zarya
+
+#### Localization 4.0.99.3
+
+* Add
+  * Russian (Русский)
+    * [ru.cfg] v1.0.0.0
+    * Спасибо [evanisrael](https://github/evanisrael)
+  Translation guides
+    * [readme-ru.md] v1.0.1.0
+    * [quickstart-ru.md] v1.0.0.0
+    * Спасибо [evanisrael](https://github/evanisrael)
+* Update
+  * [ru.cfg] v1.0.1.0
+  * add header, give credit
+* closes #20 - Russian (Русский) <ru.cfg>
+* updates #12 - Localization - Master
+
+#### Documentation 4.0.99.3
+
+* Update
+  * [404.md] v1.0.3.0
+  * [Assembly.md] v1.0.3.0
+  * [Attributions.md] v1.0.3.0
+  * [LegalMumboJumbo.md] v1.0.3.0
+  * [Localizations.md] v1.0.3.0
+  * [ManualInstallation.md] v1.0.3.0
+  * [Marketing.md] v1.0.3.0
+  * [Notices.md] v1.0.3.0
+  * [readme.md] v4.0.99.3
+  * [Why.md] v1.0.3.0
+* Мир (MIR) Assembly guides
+  * renamed [Assembly-Mir-en-us.html] --> [Assembly-Mir-en.html]
+  * added [Assembly-Mir-ru.html]
+
+### Status 4.0.99.3
+
+* Issues
+  * closes #65 - Мир (MIR) 4.0.99.3-prerelease `<Спасибо evanisrael>` edition
+  * closes #66 - 4.0.99.3 Additional Tasks
+
+---
 
 ## Version 4.0.99.2-prerelease `<Gracias Fitiales>` edition
 
