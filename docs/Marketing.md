@@ -33,7 +33,7 @@ this file:
 
 ### Мир (MIR) Diagram
 
-<img src="https://github.com/zer0Kerbal/MIR/blob/master/docs/Marketing/MIR-diagram.png" alt="MIR (Мир)" width="100%" height="100%">
+<img src="https://raw.githubusercontent.com/zer0Kerbal/MIR/master/docs/Marketing/MIR-diagram.png" alt="MIR (Мир)" width="100%" height="100%">
 
 [top](#table-of-contents)
 
