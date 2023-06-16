@@ -4,17 +4,16 @@ title: Attributions
 description: The Opening Credits, and the closing credits, plus the first of two (or is three) end credit scenes
 tags: attributions,thank-you,directions,page,kerbal,ksp,zer0Kerbal,zedK
 ---
-<!-- Attributions.md v1.0.8.0
+<!-- Attributions.md v1.0.3.0
 MIR (Мир)
 created: 01 Feb 2022
-updated: 06 Jun 2023
+updated: 15 Jun 2023
 
 TEMPLATE: Attributions.md v1.0.9.0
 created: 01 Feb 2022
 updated: 15 Mar 2023
 
 THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
-
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa fa-gear fa-spin fa-3x" style="color: firebrick"></i>
 
